@@ -1,14 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  31 AUG 2018 14:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.2)  8 SEP 2018 22:01
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**nombreTT-numeroDeTT.tex
-(./nombreTT-numeroDeTT.tex
-LaTeX2e <2018-04-01> patch level 2
-Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/report.cls
+**./nombreTT-numeroDeTT.tex
+(nombreTT-numeroDeTT.tex
+LaTeX2e <2018-04-01> patch level 5
+("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size11.clo
+("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size11.clo"
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -23,22 +20,32 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2018/02/14 3.18 The Babel package
+) ("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.st
+y"
+Package: babel 2018/06/05 3.22 The Babel package
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2018/02/14 3.18 Babel switching mechanism
+("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.def
+"
+File: switch.def 2018/06/05 3.22 Babel switching mechanism
 )
-(/usr/local/texlive/2018/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-spanish\span
+ish.ldf"
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2018/02/14 3.18 Babel common definitions
+("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2018/06/05 3.22 Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen103
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def)
+("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.d
+ef")
 \bbl@dirlevel=\count90
 )
 \es@quottoks=\toks14
@@ -48,94 +55,116 @@ Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
 ))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
+sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
+y"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
+sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graph
+ics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdfte
+x.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
-)
-(./nombreTT-numeroDeTT.aux (./portada.aux)
+) ("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count92
+\float@exts=\toks18
+\float@box=\box26
+\@float@everytoks=\toks19
+\@floatcapt=\box27
+) (nombreTT-numeroDeTT.aux (portada.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
- (./resumen.aux))
+ (resumen.aux) (advertencia.aux))
 \openout1 = `nombreTT-numeroDeTT.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Info: Redefining \. on input line 14.
-LaTeX Info: Redefining \% on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
 
-(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
+ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count92
+\scratchcounter=\count93
 \scratchdimen=\dimen106
-\scratchbox=\box26
-\nofMPsegments=\count93
-\nofMParguments=\count94
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count95
+\scratchbox=\box28
+\nofMPsegments=\count94
+\nofMParguments=\count95
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count96
 \MPscratchDim=\dimen107
-\MPnumerator=\count96
-\makeMPintoPDFobject=\count97
-\everyMPtoPDFconversion=\toks19
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+\MPnumerator=\count97
+\makeMPintoPDFobject=\count98
+\everyMPtoPDFconversion=\toks21
+)
+("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
+base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infware
+rr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.st
+y"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefin
+ekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds
+.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions
+.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetke
+ys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmd
+s.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluate
+x.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -144,11 +173,13 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexc
+mds.sty"
 Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.s
+ty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -162,40 +193,80 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
+)
 \openout2 = `portada.aux'.
 
+ (portada.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 10.
+<imagenes/IPN.png, id=1, 989.6975pt x 499.8675pt>
+File: imagenes/IPN.png Graphic file (type png)
+<use imagenes/IPN.png>
+Package pdftex.def Info: imagenes/IPN.png  used on input line 12.
+(pdftex.def)             Requested size: 118.75858pt x 59.9815pt.
+<imagenes/logoescom.png, id=3, 1228.59pt x 860.21375pt>
+File: imagenes/logoescom.png Graphic file (type png)
+<use imagenes/logoescom.png>
+Package pdftex.def Info: imagenes/logoescom.png  used on input line 13.
+(pdftex.def)             Requested size: 86.01009pt x 60.22112pt.
 
-(./portada.tex
-<imagenes/escom-ipn.png, id=1, 1078.0275pt x 490.83376pt>
-File: imagenes/escom-ipn.png Graphic file (type png)
-<use imagenes/escom-ipn.png>
-Package pdftex.def Info: imagenes/escom-ipn.png  used on input line 10.
-(pdftex.def)             Requested size: 183.26225pt x 83.44063pt.
- [1
+Overfull \hbox (77.0022pt too wide) in paragraph at lines 10--20
+ [][] 
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 38.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 38.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 38.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 38.
+[1
 
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
-nes/escom-ipn.png>])
+{C:/Users/tanya/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./imagenes/
+IPN.png> <./imagenes/logoescom.png>])
 \openout2 = `resumen.aux'.
 
- (./resumen.tex [1
+ (resumen.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+[1
 
 
 ])
-(./nombreTT-numeroDeTT.toc
+\openout2 = `advertencia.aux'.
+
+ (advertencia.tex
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+) [1
+
+
+] (nombreTT-numeroDeTT.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
 )
 \tf@toc=\write3
 \openout3 = `nombreTT-numeroDeTT.toc'.
@@ -203,7 +274,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 
-] (./nombreTT-numeroDeTT.lof
+] (nombreTT-numeroDeTT.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
@@ -213,7 +284,7 @@ LaTeX Info: Redefining \% on input line 1.
  [2
 
 ]
-(./nombreTT-numeroDeTT.lot
+(nombreTT-numeroDeTT.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
@@ -222,45 +293,50 @@ LaTeX Info: Redefining \% on input line 1.
 
  [3
 
-] (./introduccion/introduccion.tex
+] (introduccion/introduccion.tex
 Cap\'{\i }tulo 1.
-) (./introduccion/secciones/contextoDeTrabajo.tex)
-(./introduccion/secciones/problematica.tex)
-(./introduccion/secciones/trabajoPrevio.tex)
-(./introduccion/secciones/solucionPropuesta.tex)
-(./introduccion/secciones/objetivos.tex)
-(./introduccion/secciones/justificacion.tex) (./marcoTeorico/marcoTeorico.tex
+) (introduccion/secciones/contextoDeTrabajo.tex)
+(introduccion/secciones/problematica.tex)
+(introduccion/secciones/trabajoPrevio.tex)
+(introduccion/secciones/solucionPropuesta.tex)
+(introduccion/secciones/objetivos.tex)
+(introduccion/secciones/justificacion.tex) (marcoTeorico/marcoTeorico.tex
 [1
 
 
 ]
 Cap\'{\i }tulo 2.
-) (./marcoTeorico/secciones/tema1.tex) (./marcoTeorico/secciones/tema1.tex)
+) (marcoTeorico/secciones/tema1.tex) (marcoTeorico/secciones/tema1.tex)
 [2
 
-] (./nombreTT-numeroDeTT.aux (./portada.aux)
+] (nombreTT-numeroDeTT.aux (portada.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
- (./resumen.aux)) ) 
+ (resumen.aux) (advertencia.aux)) ) 
 Here is how much of TeX's memory you used:
- 2437 strings out of 492649
- 34724 string characters out of 6129622
- 104266 words of memory out of 5000000
- 6249 multiletter control sequences out of 15000+600000
- 9758 words of font info for 34 fonts, out of 8000000 for 9000
+ 2547 strings out of 492973
+ 38576 string characters out of 3126693
+ 106749 words of memory out of 3000000
+ 6325 multiletter control sequences out of 15000+200000
+ 12852 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,5n,31p,286b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmcsc10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmti12.pfb>
-Output written on nombreTT-numeroDeTT.pdf (7 pages, 170072 bytes).
+ 41i,13n,31p,468b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/tanya/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/tanya/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/tanya/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/
+Users/tanya/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+r10.pfb><C:/Users/tanya/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr12.pfb><C:/Users/tanya/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr17.pfb><C:/Users/tanya/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/tanya/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/tanya/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/ta
+nya/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
+>
+Output written on nombreTT-numeroDeTT.pdf (8 pages, 664488 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 74 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
