@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.2)  8 SEP 2018 22:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.2)  9 SEP 2018 22:41
 entering extended mode
 **./nombreTT-numeroDeTT.tex
 (nombreTT-numeroDeTT.tex
@@ -95,40 +95,49 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box26
 \@float@everytoks=\toks19
 \@floatcapt=\box27
+)
+("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multirow.
+sty"
+Package: multirow 2018/08/03 v2.3 Span multiple rows of a table
+\multirow@colwidth=\skip43
+\multirow@cntb=\count93
+\multirow@dima=\skip44
+\bigstrutjot=\dimen106
 ) (nombreTT-numeroDeTT.aux (portada.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
- (resumen.aux) (advertencia.aux))
+ (resumen.aux) (advertencia.aux)
+(agradecimientos.aux))
 \openout1 = `nombreTT-numeroDeTT.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Info: Redefining \. on input line 15.
-LaTeX Info: Redefining \% on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Info: Redefining \. on input line 16.
+LaTeX Info: Redefining \% on input line 16.
 
 ("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
 ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count93
-\scratchdimen=\dimen106
+\scratchcounter=\count94
+\scratchdimen=\dimen107
 \scratchbox=\box28
-\nofMPsegments=\count94
-\nofMParguments=\count95
+\nofMPsegments=\count95
+\nofMParguments=\count96
 \everyMPshowfont=\toks20
-\MPscratchCnt=\count96
-\MPscratchDim=\dimen107
-\MPnumerator=\count97
-\makeMPintoPDFobject=\count98
+\MPscratchCnt=\count97
+\MPscratchDim=\dimen108
+\MPnumerator=\count98
+\makeMPintoPDFobject=\count99
 \everyMPtoPDFconversion=\toks21
 )
 ("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
@@ -260,11 +269,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 ) [1
 
 
+]
+\openout2 = `agradecimientos.aux'.
+
+ (agradecimientos.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--24
+
+ []
+
+) [2
+
+
 ] (nombreTT-numeroDeTT.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 3.
 )
@@ -277,16 +305,41 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ] (nombreTT-numeroDeTT.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
+
+
+LaTeX Warning: Citation `cinco' on page \es@scroman {ii} undefined on input lin
+e 3.
+
+
+LaTeX Warning: Citation `cinco' on page \es@scroman {ii} undefined on input lin
+e 4.
+
+
+LaTeX Warning: Citation `trece' on page \es@scroman {ii} undefined on input lin
+e 5.
+
+
+LaTeX Warning: Citation `trece' on page \es@scroman {ii} undefined on input lin
+e 6.
+
+
+LaTeX Warning: Citation `dieciseis' on page \es@scroman {ii} undefined on input
+ line 7.
+
 )
 \tf@lof=\write4
 \openout4 = `nombreTT-numeroDeTT.lof'.
 
  [2
 
-]
-(nombreTT-numeroDeTT.lot
+] (nombreTT-numeroDeTT.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
+
+
+LaTeX Warning: Citation `diez' on page \es@scroman {iii} undefined on input lin
+e 3.
+
 )
 \tf@lot=\write5
 \openout5 = `nombreTT-numeroDeTT.lot'.
@@ -295,48 +348,482 @@ LaTeX Info: Redefining \% on input line 1.
 
 ] (introduccion/introduccion.tex
 Cap\'{\i }tulo 1.
-) (introduccion/secciones/contextoDeTrabajo.tex)
-(introduccion/secciones/problematica.tex)
-(introduccion/secciones/trabajoPrevio.tex)
-(introduccion/secciones/solucionPropuesta.tex)
-(introduccion/secciones/objetivos.tex)
-(introduccion/secciones/justificacion.tex) (marcoTeorico/marcoTeorico.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+LaTeX Warning: Citation `uno' on page 1 undefined on input line 5.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+LaTeX Warning: Citation `dos' on page 1 undefined on input line 7.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
+
+ []
+
 [1
 
 
 ]
+
+LaTeX Warning: Citation `tres' on page 2 undefined on input line 10.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+LaTeX Info: Redefining \. on input line 17.
+LaTeX Info: Redefining \% on input line 17.
+[2]) (introduccion/secciones/contextoDeTrabajo.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+LaTeX Warning: Citation `cuatro' on page 3 undefined on input line 11.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+LaTeX Info: Redefining \. on input line 16.
+LaTeX Info: Redefining \% on input line 16.
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+LaTeX Warning: Citation `cinco' on page 4 undefined on input line 19.
+
+<introduccion/imagenes/grafica1_1.png, id=49, 760.34062pt x 243.91125pt>
+File: introduccion/imagenes/grafica1_1.png Graphic file (type png)
+<use introduccion/imagenes/grafica1_1.png>
+Package pdftex.def Info: introduccion/imagenes/grafica1_1.png  used on input li
+ne 23.
+(pdftex.def)             Requested size: 357.36014pt x 114.63829pt.
+
+LaTeX Warning: Citation `cinco' on page 4 undefined on input line 24.
+
+
+LaTeX Warning: Citation `cinco' on page 4 undefined on input line 24.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+LaTeX Info: Redefining \. on input line 31.
+LaTeX Info: Redefining \% on input line 31.
+[4]
+<introduccion/imagenes/grafica1_2.png, id=53, 585.68813pt x 322.20375pt>
+File: introduccion/imagenes/grafica1_2.png Graphic file (type png)
+<use introduccion/imagenes/grafica1_2.png>
+Package pdftex.def Info: introduccion/imagenes/grafica1_2.png  used on input li
+ne 34.
+(pdftex.def)             Requested size: 275.27345pt x 151.43578pt.
+
+
+LaTeX Warning: Citation `cinco' on page 5 undefined on input line 35.
+
+
+LaTeX Warning: Citation `cinco' on page 5 undefined on input line 35.
+
+LaTeX Info: Redefining \. on input line 42.
+LaTeX Info: Redefining \% on input line 42.
+[5 <./introduccion/imagenes/grafica1_1.png> <./introduccion/imagenes/grafica1_2
+.png>]
+
+LaTeX Warning: Citation `seis' on page 6 undefined on input line 56.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+
+LaTeX Warning: Citation `siete' on page 6 undefined on input line 65.
+
+LaTeX Info: Redefining \. on input line 66.
+LaTeX Info: Redefining \% on input line 66.
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+
+LaTeX Warning: Citation `ocho' on page 7 undefined on input line 71.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+
+ []
+
+LaTeX Info: Redefining \. on input line 82.
+LaTeX Info: Redefining \% on input line 82.
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+
+LaTeX Warning: Citation `nueve' on page 8 undefined on input line 93.
+
+) (introduccion/secciones/problematica.tex)
+(introduccion/secciones/trabajoPrevio.tex
+LaTeX Info: Redefining \. on input line 4.
+LaTeX Info: Redefining \% on input line 4.
+ [8])
+(introduccion/secciones/solucionPropuesta.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 31.
+
+LaTeX Warning: Citation `diez' on page 9 undefined on input line 32.
+
+
+LaTeX Warning: Citation `diez' on page 9 undefined on input line 32.
+
+LaTeX Info: Redefining \. on input line 41.
+LaTeX Info: Redefining \% on input line 41.
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+LaTeX Info: Redefining \. on input line 56.
+LaTeX Info: Redefining \% on input line 56.
+[10]) (introduccion/secciones/objetivos.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+
+LaTeX Warning: Citation `once' on page 12 undefined on input line 28.
+
+LaTeX Info: Redefining \. on input line 36.
+LaTeX Info: Redefining \% on input line 36.
+[12]
+
+LaTeX Warning: Citation `doce' on page 13 undefined on input line 37.
+
+
+LaTeX Warning: Citation `trece' on page 13 undefined on input line 42.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
+ []
+
+<introduccion/imagenes/grafica1_3.png, id=84, 433.62pt x 369.63094pt>
+File: introduccion/imagenes/grafica1_3.png Graphic file (type png)
+<use introduccion/imagenes/grafica1_3.png>
+Package pdftex.def Info: introduccion/imagenes/grafica1_3.png  used on input li
+ne 48.
+(pdftex.def)             Requested size: 151.76927pt x 129.37276pt.
+
+LaTeX Warning: Citation `trece' on page 13 undefined on input line 49.
+
+
+LaTeX Warning: Citation `trece' on page 13 undefined on input line 49.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+
+ []
+
+LaTeX Info: Redefining \. on input line 54.
+LaTeX Info: Redefining \% on input line 54.
+[13]
+<introduccion/imagenes/grafica1_4.png, id=88, 441.90094pt x 464.4853pt>
+File: introduccion/imagenes/grafica1_4.png Graphic file (type png)
+<use introduccion/imagenes/grafica1_4.png>
+Package pdftex.def Info: introduccion/imagenes/grafica1_4.png  used on input li
+ne 57.
+(pdftex.def)             Requested size: 154.66763pt x 162.5723pt.
+
+
+LaTeX Warning: Citation `trece' on page 14 undefined on input line 58.
+
+
+LaTeX Warning: Citation `trece' on page 14 undefined on input line 58.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+LaTeX Info: Redefining \. on input line 109.
+LaTeX Info: Redefining \% on input line 109.
+[14 <./introduccion/imagenes/grafica1_3.png> <./introduccion/imagenes/grafica1_
+4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+LaTeX Info: Redefining \. on input line 116.
+LaTeX Info: Redefining \% on input line 116.
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+
+ []
+
+
+LaTeX Warning: Citation `catorce' on page 16 undefined on input line 119.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
+ []
+
+
+LaTeX Warning: Citation `quince' on page 16 undefined on input line 121.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+ []
+
+LaTeX Info: Redefining \. on input line 130.
+LaTeX Info: Redefining \% on input line 130.
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+
+ []
+
+<introduccion/imagenes/termistores.png, id=100, 157.33781pt x 118.19156pt>
+File: introduccion/imagenes/termistores.png Graphic file (type png)
+<use introduccion/imagenes/termistores.png>
+Package pdftex.def Info: introduccion/imagenes/termistores.png  used on input l
+ine 146.
+(pdftex.def)             Requested size: 55.06905pt x 41.36766pt.
+
+LaTeX Warning: Citation `dieciseis' on page 17 undefined on input line 147.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+LaTeX Info: Redefining \. on input line 152.
+LaTeX Info: Redefining \% on input line 152.
+[17 <./introduccion/imagenes/termistores.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+
+ []
+
+
+LaTeX Warning: Citation `diecisiete' on page 18 undefined on input line 163.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+
+ []
+
+
+LaTeX Warning: Citation `dieciocho' on page 18 undefined on input line 167.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+ []
+
+LaTeX Info: Redefining \. on input line 168.
+LaTeX Info: Redefining \% on input line 168.
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+ []
+
+
+LaTeX Warning: Citation `diecinueve' on page 19 undefined on input line 179.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+
+ []
+
+) (introduccion/secciones/justificacion.tex) (marcoTeorico/marcoTeorico.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+[19]
 Cap\'{\i }tulo 2.
 ) (marcoTeorico/secciones/tema1.tex) (marcoTeorico/secciones/tema1.tex)
-[2
+[20
 
 ] (nombreTT-numeroDeTT.aux (portada.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
- (resumen.aux) (advertencia.aux)) ) 
+ (resumen.aux) (advertencia.aux)
+(agradecimientos.aux))
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2547 strings out of 492973
- 38576 string characters out of 3126693
- 106749 words of memory out of 3000000
- 6325 multiletter control sequences out of 15000+200000
- 12852 words of font info for 44 fonts, out of 3000000 for 9000
+ 2658 strings out of 492973
+ 41036 string characters out of 3126693
+ 117610 words of memory out of 3000000
+ 6418 multiletter control sequences out of 15000+200000
+ 13512 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,13n,31p,468b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/tanya/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/tanya/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/tanya/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/
-Users/tanya/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-r10.pfb><C:/Users/tanya/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr12.pfb><C:/Users/tanya/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr17.pfb><C:/Users/tanya/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/tanya/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/tanya/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/ta
-nya/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
->
-Output written on nombreTT-numeroDeTT.pdf (8 pages, 664488 bytes).
+ 41i,13n,31p,1264b,489s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/tanya/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb><C:/Users/tanya/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmbx12.pfb><C:/Users/tanya/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/tanya/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/tanya/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ta
+nya/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+<C:/Users/tanya/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr17.pfb><C:/Users/tanya/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr6.pfb><C:/Users/tanya/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmr9.pfb><C:/Users/tanya/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/tanya/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/tanya/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Use
+rs/tanya/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti1
+2.pfb>
+Output written on nombreTT-numeroDeTT.pdf (27 pages, 1096289 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
+ 156 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

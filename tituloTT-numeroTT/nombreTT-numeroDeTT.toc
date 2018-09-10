@@ -1,11 +1,20 @@
 \babel@toc {spanish}{}
 \contentsline {chapter}{\numberline {1}Introducci\'on}{1}
-\contentsline {section}{\numberline {1.1}Contexto de trabajo}{1}
-\contentsline {section}{\numberline {1.2}Problem\IeC {\'a}tica}{1}
-\contentsline {section}{\numberline {1.3}Trabajo previo}{1}
-\contentsline {section}{\numberline {1.4}Soluci\IeC {\'o}n propuesta}{1}
-\contentsline {section}{\numberline {1.5}Objetivos}{1}
-\contentsline {section}{\numberline {1.6}Justificaci\IeC {\'o}n}{1}
-\contentsline {chapter}{\numberline {2}Marco Te\IeC {\'o}rico }{2}
-\contentsline {section}{\numberline {2.1}Subtema 1}{2}
-\contentsline {section}{\numberline {2.2}Subtema 1}{2}
+\contentsline {section}{\numberline {1.1}Antecedentes}{3}
+\contentsline {subsection}{\numberline {1.1.1}Crecimiento de la poblaci\IeC {\'o}n de adultos mayores}{3}
+\contentsline {subsection}{\numberline {1.1.2}Discapacidades en los adultos mayores}{4}
+\contentsline {subsection}{\numberline {1.1.3}Discapacidad visual}{5}
+\contentsline {subsection}{\numberline {1.1.4}Discapacidad auditiva}{6}
+\contentsline {subsection}{\numberline {1.1.5}Demencia}{7}
+\contentsline {subsection}{\numberline {1.1.6}Ca\IeC {\'\i }das}{7}
+\contentsline {section}{\numberline {1.2}Objetivo general}{8}
+\contentsline {section}{\numberline {1.3}Objetivos espec\IeC {\'\i }ficos}{9}
+\contentsline {section}{\numberline {1.4}Justificaci\IeC {\'o}n}{9}
+\contentsline {section}{\numberline {1.5}Marco Te\IeC {\'o}rico}{11}
+\contentsline {subsection}{\numberline {1.5.1}Variables a medir}{11}
+\contentsline {subsection}{\numberline {1.5.2}Sensores}{16}
+\contentsline {subsection}{\numberline {1.5.3}Sensor de temperatura}{17}
+\contentsline {section}{\numberline {1.6}Justificaci\IeC {\'o}n}{19}
+\contentsline {chapter}{\numberline {2}Marco Te\IeC {\'o}rico }{20}
+\contentsline {section}{\numberline {2.1}Subtema 1}{20}
+\contentsline {section}{\numberline {2.2}Subtema 1}{20}
