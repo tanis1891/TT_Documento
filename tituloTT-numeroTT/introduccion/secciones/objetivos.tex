@@ -1,6 +1,6 @@
 \section{Marco Teórico}
 
-A continuación se presentan las variables que consideramos importantes para el desarrollo del proyecto, antes de llevar a cabo la elección de los dispositivos a emplear, previamente se elaboró una investigación de los signos vitales más indispensables del ser humano, por lo que para fines del proyecto y de acuerdo con lo analizado las variables a medir son la temperatura, considerando que es el primer parámetro para determinar una enfermedad, la segunda variable es un acelerómetro que por causa del envejecimiento de las personas suelen ser más predispuestas a sufrir alguna caída y por último la frecuencia cardíaca, esta última involucra un órgano muy importante para las personas por ello consideramos evaluar conjuntamente esta medida. Existen otras variables importantes pero por la complejidad para medirlas no entran en la posibilidad de incluirlas en este trabajo terminal, dichas variables pueden ser por ejemplo: la presión arterial, la glucosa, por mencionar algunas, ya que al medirlas no utilizan un método invasivo y no causan molestia al usuario. \\
+A continuación se presentan las variables que consideramos importantes para el desarrollo del proyecto, antes de llevar a cabo la elección de los dispositivos a emplear, previamente se elaboró una investigación de los signos vitales más indispensables del ser humano, por lo que para fines del proyecto y de acuerdo con lo analizado las variables a medir son la temperatura, considerando que es el primer parámetro para determinar una enfermedad, la segunda variable es un acelerómetro que por causa del envejecimiento de las personas suelen ser más predispuestas a sufrir alguna caída y por último la frecuencia cardíaca, esta última involucra un órgano muy importante para las personas por ello consideramos evaluar conjuntamente esta medida. Existen otras variables importantes pero por la complejidad para medirlas no entran en la posibilidad de incluirlas en este trabajo terminal, dichas variables pueden ser por ejemplo: la presión arterial, la glucosa, por mencionar algunas, ya que al medirlas no utilizan un método invasivo y no causan molestia al usuario. 
 
 \subsection{Variables a medir}
 
@@ -128,7 +128,7 @@ A continuación, se muestran algunas definiciones de la investigación de los se
 
 Un dispositivo electrónico que produce datos eléctricos, ópticos o digitales derivadas de una condición física o evento. La Real Academia Española lo define como un dispositivo que detecta una determinada acción externa y es transmitida adecuadamente. \\
 
-Conociendo estas definiciones llamaremos sensor al dispositivo o mecanismo eléctrico que nos permite medir una variable física, dando como respuesta una señal o dato en relación con la magnitud de la variable medida. \\
+Conociendo estas definiciones llamaremos sensor al dispositivo o mecanismo eléctrico que nos permite medir una variable física, dando como respuesta una señal o dato en relación con la magnitud de la variable medida. 
 
 \subsection{Sensor de temperatura}
 
@@ -176,14 +176,285 @@ Otra de las propuestas interesantes que tenemos son los sensores de radiación t
 
 Presentan un inconveniente acorde a los materiales que presentan emisividad, que es la proporción de radiación térmica emitida por una superficie u objeto debido a su temperatura. \\
 
-Los cuerpos negros presentan una emisividad igual a uno, en la práctica todos los cuerpos tienen esta propiedad de acuerdo a su color, los sensores de radiación vienen ajustados para una emisividad predeterminada, por lo que si se tiene otra emisividad diferente se tendrá que calibrar \cite{diecinueve}. \\
+Los cuerpos negros presentan una emisividad igual a uno, en la práctica todos los cuerpos tienen esta propiedad de acuerdo a su color, los sensores de radiación vienen ajustados para una emisividad predeterminada, por lo que si se tiene otra emisividad diferente se tendrá que calibrar \cite{diecinueve}. 
 
+\subsection{Sensor acelerómetro}
+\renewcommand{\theequation}{\arabic{equation}}
+\newcounter{neq}
+\setcounter{equation}{\arabic{neq}}
 
+\textbf{Definición} \\
 
+Como ya se mencionó anteriormente, los acelerómetros son dispositivos que miden la aceleración, que es la tasa de cambio de la velocidad de un objeto y son útiles para detectar las vibraciones en los sistemas o para aplicaciones de orientación \cite{veinte}. \\
 
+El acelerómetro calcula la aceleración por medio de la siguiente formula: \\
 
+\begin{equation}
+	\alpha = \frac{F}{m}
+	\addtocounter{neq}{1}
+\end{equation} \\
 
+Dicha fórmula es la segunda ley de Newton y establece que, en un cuerpo con masa constante, la aceleración del cuerpo es proporcional a la fuerza que actúa sobre él mismo, dónde $\alpha$ es la aceleración, \textit{F} es la fuerza y \textit{m} la masa de un cuerpo. \\
 
+La aceleración se calcula en unidades de metro por segundo al cuadrado (m/s2), o en fuerza G (g), que es aproximadamente de 9.8 m/s2. Los acelerómetros son dispositivos electromecánicos que detectan las fuerzas de aceleración, ya sea estática (incluyen gravedad) o dinámica (incluyen vibraciones y movimiento) \cite{veinte}. \\
 
+El giroscopio se basa en el efecto Coriolis para medir la velocidad angular, el cual consiste en una masa de prueba de resonancia montada en el silicio. El giroscopio es, a diferencia de un acelerómetro, un sensor activo. La masa de prueba es empujada hacia atrás y hacia adelante por peines de conducción. Una rotación del giroscopio genera una fuerza de Coriolis que actúa sobre la masa que se traduce en un movimiento en una dirección diferente. El movimiento en esta dirección se mide mediante electrodos y representa la velocidad de giro \cite{veintiuno}. \\
 
+El giroscopio calcula la velocidad angular por medio de la siguiente formula: \\
 
+\begin{equation}
+	\varPhi = \frac{d\theta}{dt}
+	\addtocounter{neq}{1}
+\end{equation} \\
+
+Dicha fórmula establece que, la velocidad angular es la tasa de cambio del desplazamiento angular por unidad de tiempo, es decir que tan rápido gira un cuerpo alrededor de su eje y las unidades de velocidad angular son radianes por segundo (rad/s). \\
+
+\textbf{Tipos de sensores acelerómetros \cite{veintidos}:} \\ 
+
+\begin{itemize}
+	\item \textbf{Acelerómetros mecánicos} \\
+	
+	Acelerómetros mecánicos, tales como el acelerómetro de masa sísmica, el sensor de velocidad, y el interruptor magnético mecánico, detectan la fuerza impuesta sobre una masa cuando se produce aceleración. La masa se resiste a la fuerza de la aceleración y de este modo provoca una deformación o un desplazamiento físico, que puede ser medido por los detectores de proximidad o galgas extensiométricas (como se muestra a continuación). Muchos de estos sensores están equipados con dispositivos de amortiguación, tales como muelles o imanes para impedir la oscilación. 
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.35]{introduccion/imagenes/acelerometro_mecanico}
+		\textbf{\caption{\small{Acelerómetro tipo mecánico \cite{veintitres}.}}}
+		\label{Seccion1.5.4:Figura1.6}
+	\end{figure}
+
+	\item \textbf{Acelerómetros Piezoeléctricos} \\
+	
+	Acelerómetros piezoeléctricos son ampliamente utilizados para la aceleración de propósito general, mediciones de choque y vibración. Básicamente son transductores de movimiento con grandes señales de salida y comparativamente de pequeños tamaños. Están disponibles con muy altas frecuencias naturales y son por lo tanto adecuados para aplicaciones de alta frecuencia y mediciones de choque. Estos dispositivos utilizan una masa en contacto directo con el componente piezoeléctrico, o cristal. Cuando un movimiento variable se aplica al acelerómetro, el cristal experimenta una excitación de fuerza variable, causando una carga proporcional q eléctrica a ser desarrollada a través de esta. Se clasifican en dos tipos: \\
+	
+	\begin{enumerate}
+		\item El primero de ellos es el acelerómetro de salida de carga de alta impedancia. En este tipo de acelerómetro, el cristal piezoeléctrico genera una carga eléctrica que está conectada directamente a los instrumentos de medición. La salida de carga requiere instalaciones e instrumentación especiales, que habitualmente encontramos en los centros de investigación. Este tipo de acelerómetro también se emplea en aplicaciones de altas temperaturas $(>120^{\circ}C)$ en las que no se pueden utilizar modelos de baja impedancia. \\
+		
+		\item El segundo tipo de acelerómetro es el acelerómetro de salida de baja impedancia. Un acelerómetro de baja impedancia incluye un acelerómetro de carga en su extremo delantero, así como un minúsculo microcircuito integrado y un transistor FET (de efecto de campo) que convierte la carga en una tensión de baja impedancia que puede interaccionar fácilmente con la instrumentación estándar. Este tipo de acelerómetro es el que se emplea habitualmente en la industria. Una fuente de alimentación para acelerómetro como la ACC-PS1 proporciona al microcircuito un suministro eléctrico adecuado de 18 a 24 V a una corriente constante de 2 mA y elimina la corriente de polarización CC. Este tipo de fuente de alimentación suele generar una señal de salida a partir de cero de hasta +/- 5 V dependiendo del índice mV/g del acelerómetro. 
+		
+		\begin{figure}[h]
+			\centering
+			\includegraphics[scale=0.55]{introduccion/imagenes/acelerometro_piezoelectrico}
+			\textbf{\caption{\small{Acelerómetro tipo piezoeléctrico \cite{veintitres}.}}}
+			\label{Seccion1.5.4:Figura1.7}
+		\end{figure}		
+	\end{enumerate}
+
+	\item \textbf{Acelerómetros Piezoresistivos} \\
+	
+	Acelerómetros piezoresistivos son esencialmente medidores de deformación de semiconductor con grandes factores de calibre factores de alto calibre se obtienen debido a que la resistividad del material depende principalmente de la tensión, no sólo en las dimensiones. El aumento de la sensibilidad es crítica en la medición de la vibración, ya que permite la miniaturización del acelerómetro. La mayoría de los acelerómetros piezorresistivos utilizan dos o cuatro calibradores activos dispuestos en un puente de Wheatstone. Se utilizan resistencias extra de precisión, como parte del circuito en serie con la entrada para controlar la sensibilidad, equilibrio y la compensación de los efectos de temperatura. En algunas aplicaciones, topes de sobrecarga son necesarios para proteger los medidores de insumos de alta amplitud. Estos instrumentos son útiles para la adquisición de información de vibración a bajas frecuencias (por ejemplo, por debajo de 1 Hz). De hecho, los sensores piezorresistivos son inherentemente verdaderos dispositivos de medición de aceleración estática. Las características típicas de acelerómetros piezorresistivos pueden ser 100 mV g-1 en la sensibilidad, 0 - 750 Hz en rango de frecuencia, 2500 Hz en la frecuencia de resonancia, 25 g en rango de amplitud, 2,000 g en índice de choque, de 0 a 95$^{\circ}$C en el rango de temperatura, con una masa total de aproximadamente 25g. Los sensores piezoresistivos operan con elementos extensométricos son sensibles a la temperatura y requieren una compensación. Se prefieren para las aplicaciones de vibraciones de baja frecuencia, descarga de larga duración, y de aceleración constante. Las unidades piezoresistivas son resistentes, y pueden operar a frecuencias de hasta 2,000 Hz. 
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.55]{introduccion/imagenes/acelerometro_piezoresistivo}
+		\textbf{\caption{\small{Acelerómetro tipo piezoresistivo  \cite{veintitres}.}}}
+		\label{Seccion1.5.4:Figura1.8}
+	\end{figure} 
+
+	\item \textbf{Acelerómetros capacitivos} \\
+	
+	Acelerómetros diferencial-capacitancia se basan en el principio del cambio de la capacitancia en proporción a la aceleración aplicada. Vienen en diferentes formas y tamaños. En un tipo, la masa sísmica del acelerómetro se hace como el elemento móvil de un oscilador. La masa sísmica se apoya en una disposición de haz paralelo de movimiento elástico de la base. El sistema se caracteriza por tener una cierta frecuencia nominal definida cuando no alterados. Si se acelera el instrumento, la frecuencia varía por encima y por debajo del valor nominal, dependiendo de la dirección de la aceleración. En acelerómetros de capacidad de detección, micro mecanizados de placas capacitivas (placas de condensador CMOS solo 60 micras de profundidad) forman una masa de unos 50 micro gramos. Como la aceleración deforma las placas, un cambio de capacitancia es medible. \\
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.55]{introduccion/imagenes/acelerometro_capacitivo}
+		\textbf{\caption{\small{Acelerómetro de capacitivo \cite{veintitres}.}}}
+		\label{Seccion1.5.4:Figura1.9}
+	\end{figure} 
+
+	\item \textbf{Acelerómetro térmico} \\
+	
+	Estos acelerómetros hacen uso de una masa sísmica que está suspendida por un resorte o una palanca dentro de un marco rígido. El marco que lleva la masa sísmica está conectado firmemente a la fuente de vibración que tenga características medibles. Como el sistema vibra, la masa tiende a permanecer fija en su posición de modo que el movimiento puede ser registrado como un desplazamiento relativo entre la masa y el marco. Este desplazamiento es detectado por un transductor apropiado y la señal de salida se procesa adicionalmente. Sin embargo, la masa sísmica no permanece absolutamente constante; pero para frecuencias seleccionadas, de manera satisfactoria puede actuar como una posición de referencia. Mediante la selección apropiada de la masa, la primera, y combinaciones de los amortiguadores, los instrumentos sísmicos pueden ser utilizados ya sea para la aceleración o mediciones de desplazamiento. En general, una gran masa y resorte suave son apropiados para mediciones de vibración y de desplazamiento, mientras que una masa relativamente pequeña y resorte rígido se utilizan en acelerómetros. Este sensor detecta la posición a través de la transferencia de calor. Una masa sísmica se coloca encima de una fuente de calor. Si la masa se mueve a causa de la aceleración, la proximidad de la fuente de calor y la temperatura de la masa cambia. Las termopilas de polisilicio se utilizan para detectar cambios en la temperatura. 
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.55]{introduccion/imagenes/acelerometro_termico}
+		\textbf{\caption{\small{Acelerómetro térmico \cite{veintitres}.}}}
+		\label{Seccion1.5.4:Figura1.10}
+	\end{figure} 
+
+	\item \textbf{Acelerómetro con tecnología MEMS} \\
+	
+	Estos acelerómetros son ampliamente utilizados en aplicaciones como: dinámica de vehículos, detección de orientación de teléfonos móviles, estabilidad de imagen, inclinación, detección de golpes y dispositivos antirrobo. \\
+	
+	Los acelerómetros de capacitancia variable están disponibles en varias configuraciones, incluidos sensores de vibraciones basados en un circuito oscilador sintonizable y sistemas mecánicos micro eléctricos (MEMS). Los circuitos de oscilador sintonizable incorporan un capacitor con una placa que actúa como una masa móvil tipo diafragma en relación con otras placas fijas. La aceleración hace que el diafragma se flexione, creando un cambio capacitivo. Esto cambia la tensión pico de la oscilación. Los acelerómetros MEM se implementan como un capacitor variable modificado por una viga en voladizo conectada a una masa de prueba. Están disponibles en dispositivos compatibles con 1 a 3 ejes. Acelerómetros MEMS utilizan interfaces seriales como I2C y SPI. Tienen alta linealidad y se utilizan mayormente en aplicaciones de baja frecuencia. 
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.75]{introduccion/imagenes/acelerometro_MEMS}
+		\textbf{\caption{\small{Acelerómetro con tecnología MEMS \cite{veinticuatro}.}}}
+		\label{Seccion1.5.4:Figura1.11}
+	\end{figure} 
+\end{itemize}
+
+\subsection{Sensor de frecuencia cardíaca}
+
+\textbf{Definición} \\
+
+La frecuencia cardíaca permite medir la cantidad de sangre por minuto que llega al corazón, por ello para determinar esa variable necesitamos un dispositivo que mida la frecuencia del corazón, por lo tanto a continuación se dará una definición del sensor para este tipo de variable, es un dispositivo conformado por un transmisor y un receptor conformados por fotodiodos, los cuales tienen la función de detectar la cantidad de sangre que fluye dependiendo de la zona donde sea colocado en un determinado tiempo. \\
+
+\textbf{Tipos de sensores de frecuencia cardíaca} \\ 
+
+\textbf{Óptico} \\
+
+Emplean fotocélulas como elementos de detección. A veces disponen de un cabezal que contiene un emisor de luz y la fotocélula de detección del haz reflejado sobre el objeto. Otros trabajan en modo barrera y se utilizan para cubrir mayores distancias, con fuentes luminosas independientes del detector. Ambos tipos suelen trabajar con frecuencias en la banda de infrarrojos. Su utilización principal es como detectores de posición. El principio de funcionamiento está basado en la generación de un haz luminoso por parte de un fotoemisor, que se proyecta sobre un fotorreceptor, o bien, sobre un dispositivo reflectante. La interrupción o reflexión del haz, por parte del objeto a detectar, provoca el cambio de estado en la salida de la fotocélula. \\
+
+Se clasifican según su sistema de detección: 
+
+\begin{itemize}
+	\item Sistema de detección de “barrera”
+	\item Sistema de detección “réflex” 
+	\item Sistema de detección “autoreflex”	
+\end{itemize}
+
+\textbf{Fotoeléctrico de barrera} \\
+
+Dispone de emisor y receptor de haz luminoso dispuestos separadamente. \\
+
+\textbf{Óptico tipo réflex} \\
+
+Concentra en un solo bloque el emisor y receptor, siendo más fácil su instalación, aunque requiere un dispositivo reflector. Para este cometido se suele emplear un sistema catadióptrico, que tiene la propiedad del triedro trirectangular, el cual refleja la luz en la misma dirección en la que llega. Dispone de una mayor distancia de detección que el sistema de barrera, teniendo en cuenta que el trayecto que recorre el haz de luz es el doble. \\
+
+\textbf{Óptico tipo autoreflex} \\
+
+En este sistema es el propio objeto a detectar el que funciona como elemento reflector, lo cual simplifica la tarea de instalación. Por el contrario, su inconveniente es que dispone de una menor distancia de detección en comparación con los dos tipos anteriores. Las ventajas de este tipo de detectores son la inmunidad a perturbaciones electromagnéticas, las grandes distancias de detección, alta velocidad de respuesta, identificación de colores y detección de pequeños objetos. Una variable importante son los construidos de fibra óptica que permite separar el punto emisor y el detector de la unidad principal del sensor con las ventajas de accesibilidad que ello proporciona \cite{veinticinco}. \\
+
+\textbf{Tecnología fotopletismografía} \\
+
+La fotopletismografía está basada en la medida y análisis de una señal óptica relacionada con los cambios en el volumen sanguíneo, que permite medir la componente pulsátil del latido del corazón y evaluar así la circulación sanguínea Esta técnica es ampliamente usada en la práctica médica como parte de los pulsioxímetros, para medir el pulso, equivalente al ritmo cardíaco, y la saturación de oxígeno, o relación entre la concentración de hemoglobina oxigenada y la concentración total de hemoglobina, habitualmente en la punta de los dedos \cite{veintiseis}. \\
+
+\textbf{Principios Físicos:} Detecta el flujo de sangre cutáneo y traduce sus pulsaciones. Consiste en la emisión de luz infrarroja desde un diodo emisor y un fotodetector adyacente que recibe la luz infrarroja reflejada. A medida que aumenta el flujo de sangre cutáneo aumenta la cantidad de luz reflejada. De esta manera obtenemos una medida cualitativa del flujo sanguíneo cutáneo. Se utiliza preferentemente en la medición de la presión digital. \\
+
+\textbf{Oxímetros} \\
+
+La oximetría de pulso es un método no invasivo que permite la estimación de la saturación de oxígeno de la hemoglobina arterial y también vigila la frecuencia cardiaca y la amplitud del pulso \cite{veintisiete}. \\
+
+Para la determinación de la saturación de hemoglobina arterial con oxígeno (SpO2), el oxímetro de pulso o pulsioxímetro usa la espectrofotometría basada en que la oxihemoglobina u hemoglobina oxigenada (HbO2) y la desoxihemoglobina o hemoglobina reducida (Hb) absorben y transmiten determinadas longitudes de onda del espectro luminoso para la luz roja (640-660nm) y la luz infrarroja (910-940nm). La HbO2 absorbe más la luz infrarroja y permite el paso de la luz roja; por el contrario, la Hb absorbe más la luz roja (R) y permite el paso de la luz infrarroja (IR). El radio de la absorción de la luz R e IR mide el grado de oxigenación de la hemoglobina. \\
+
+Los oxímetros de pulso tienen dos sensores o sondas con diodos emisores de luz (LED), uno para luz IR y otro para la R, además, de un fotodiodo detector. Para medir el oxígeno los LED y el fotodiodo detector deben ponerse en puntos opuestos dejando en medio el tejido translucido (pulpejo del dedo, pabellón auricular, etc). El mecanismo que permite la lectura de la oxigenación es que en cada pulsación de la sangre arterial se transmiten valores lumínicos, detectando al mismo tiempo la frecuencia cardíaca \cite{veintiocho}. 
+
+\subsection{Microcontroladores}
+
+En la actualidad el uso de microcontroladores es indispensable para desarrollar aplicaciones dedicadas, debido a que contienen una variedad de módulos que nos permiten interactuar con el mundo físico en tiempo real. A continuación, definiremos los conceptos teóricos que utilizaremos en la elaboración del proyecto, dando una noción de la utilidad que nos aporta un microcontrolador. Antes de mencionar a los microcontroladores es necesario mencionar que es un microprocesador ya que es su antecesor. \\
+
+El microprocesador es un circuito integrado que contiene solo la unidad central de procesamiento (CPU), es utilizado para procesar grandes volúmenes de información, para ser utilizados es necesario conectar dispositivos periféricos.
+En el siguiente apartado tenemos algunas definiciones de microcontrolador. \\
+
+Es un circuito integrado o chip que incluye en su interior las tres unidades funcionales de un computador: CPU, memoria y unidades de entrada y salida, pero con capacidades limitadas y un alto nivel de especialización. \\
+
+Lo definimos como un dispositivo dedicado, que en su memoria sólo reside un programa destinado que permite controlar una aplicación determinada, sus unidades de entrada y salida soportan la conexión de sensores y dispositivos de control que permitan efectuar el proceso deseado. Es un microprocesador optimizado, utilizado para controlar equipos electrónicos, diseño de sistemas de comunicación, monitoreo y adquisición de señales físicas, procesamiento de señales analógicas y digitales. \\
+
+El microcontrolador es un circuito integrado de alta escala de integración que incorpora una CPU, memorias, dispositivos de entrada y salida. \\
+
+La diferencia que hay entre un microcontrolador y un microprocesador, el microprocesador solo contiene la CPU mientras que el microcontrolador contiene una CPU, memorias y dispositivos que interactúan con el exterior, es la razón por la que los microcontroladores no han remplazado a los microprocesadores, es que los microprocesadores se concentran en el procesamiento de información y cálculos, y los microcontroladores se utilizan en aplicaciones personalizadas de tiempo real \cite{veintinueve}. 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.75]{introduccion/imagenes/microcontrolador}
+	\textbf{\caption{\small{Diagramas de un microcontrolador (lado izquierdo) y microprocesador (lado derecho)  \cite{veintinueve}.}}}
+	\label{Seccion1.5.5:Figura1.12}
+\end{figure} 
+
+La idea de utilizar microcontroladores es la tener un módulo específico que se concentre en una tarea repetitiva y de alguna manera dividir el trabajo. 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.35]{introduccion/imagenes/microprocesador}
+	\textbf{\caption{\small{Microprocesador \cite{treinta}.}}}
+	\label{Seccion1.5.5:Figura1.13}
+\end{figure} 
+
+En la Tabla 1.3 se da la clasificación general de los microcontroladores de acuerdo a sus características principales. \\
+
+	\begin{table}
+	\centering
+		\begin{tabular}{|p{4cm}|p{7.5cm}|}
+			\hline
+			Clasificación de los microcontroladores por & Descripción \\
+			\hline \hline
+			Tamaño de los datos	& 4 bits, 8 bits, 16 bits, 32 bits, 64 bits \\
+			\hline
+			Arquitectura interna & Von Neumann, Harvard \\
+			\hline
+			Arquitectura del procesador & CISC (Computador de juego de instrucciones complejo) RISC (Computador de juego de instrucciones reducido) \\		
+			\hline
+		\end{tabular}
+	\textbf{\caption{\small{\textbf{Clasificación de microcontroladores \cite{veintinueve}.}}}}
+\end{table}
+
+\textbf{Arquitectura interna de un microcontrolador} \\
+
+Todos los microcontroladores en la actualidad posen dos modelos básicos de arquitectura, denominadas Harvard y Von Neumann, estas arquitecturas tienen diferentes formas de intercambiar los datos \cite{veintinueve}. \\
+
+\begin{itemize}
+	\item \textbf{Arquitectura de Von Neumann} \\
+	
+	Es la arquitectura tradicional de computadoras y microprocesadores, en la cual la CPU está conectada en una memoria única donde se guardan las instrucciones de programas y datos. Los microcontroladores que tienen esta arquitectura internamente soló tienen un bloque de memoria y un bus de datos de 8 bits, los datos se transmiten por este bus llegando a sobrecargarlo ocasionando que la comunicación sea lenta, por otra parte solo permite lectura o escritura de la memoria en cada pulso de reloj. 
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.75]{introduccion/imagenes/arquitectura_von}
+		\textbf{\caption{\small{Arquitectura Von Neumann \cite{treinta}.}}}
+		\label{Seccion1.5.6:Figura1.14}
+	\end{figure} 
+
+	\item \textbf{Arquitectura Harvard} \\
+	
+	Esta arquitectura tiene la CPU conectada a dos memorias (una con las instrucciones y otra con los datos) por medio de dos buses diferentes. Una de las memorias contiene solamente las instrucciones del programa (memoria del programa) y el otro solo almacena los datos (memoria de datos). Ambos buses son totalmente independientes y pueden ser independientes y distintos anchos \cite{treintayuno}. \\
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.75]{introduccion/imagenes/arquitectura_harvard}
+		\textbf{\caption{\small{Arquitectura Harvard \cite{treintayuno}.}}}
+		\label{Seccion1.5.6:Figura1.15}
+	\end{figure} 
+
+Al tener un bus dedicado a los datos y otro a la memoria del programa, permite que la CPU pueda leer y escribir una instrucción en el mismo pulso de reloj. \\
+
+\end{itemize}
+
+\textbf{Juego de instrucciones} \\
+
+Es el nombre colectivo de todas las instrucciones que tiene un microcontrolador, son instrucciones a nivel máquina que indican al microcontrolador las tareas que debe realizar, cada fabricante personaliza el número de instrucciones que maneja su microcontrolador. \\
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.75]{introduccion/imagenes/juego_instrucciones}
+	\textbf{\caption{\small{Juego de instrucciones  \cite{treintayuno}.}}}
+	\label{Seccion1.5.6:Figura1.16}
+\end{figure}
+
+\textbf{Tipos de arquitectura de procesadores} \\
+
+Los microprocesadores basados en una arquitectura CISC disponen de más de 200 instrucciones máquina, siendo estas muy complejas llegando a necesitar más de un ciclo de reloj. La ventaja de tener un juego de instrucciones complejo, es disminuir el tiempo al realizar más de una operación pues éstas en ocasiones se realizan con una sola instrucción. \\
+
+En cuanto a los microprocesadores que utilizan la arquitectura RISC, reconoce y ejecuta pocas instrucciones básicas y realiza operaciones complejas combinando sus instrucciones, cuando se corre una instrucción regularmente solo utiliza un ciclo de reloj, por otra parte, al tener un set de instrucciones más pequeños, ayudan a optimizar los recursos de hardware de un microcontrolador \cite{veintinueve}. 
+
+\subsection{Aplicación Móvil}
+
+Sabemos que la era tecnológica va en aumento y la velocidad con la que evolucionan los dispositivos móviles como lo son: teléfonos celulares, tabletas y Asistentes Personales Digitales (PDA) es cada vez mayor, este impacto tiene su procedencia debido a que la población en su mayoría cuenta con un teléfono celular. \\
+
+El estudio realizado por el Instituto Nacional de Estadística y Geografía (INEGI) en el documento: “ESTADÍSTICAS A PROPÓSITO DEL DÍA MUNDIAL DE INTERNET (17 DE MAYO)”, revela que 77.7 millones de personas usan celular y dos de cada tres usuarios cuentan con un teléfono inteligente (Smartphone), como se muestra en la figura 1.17.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.55]{introduccion/imagenes/poblacion}
+	\textbf{\caption{\small{Población según condición de uso de celular, por tipo de equipo, 2015($\%$) \cite{treintayuno}.}}}
+	\label{Seccion1.5.7:Figura1.17}
+\end{figure}
+
+Una aplicación móvil, es un diseño, desarrollo e implementación de un servicio que está pensado para resolver alguna problemática, dicha aplicación se ejecuta en la red y proporciona un valor añadido al cliente. En este escenario el servicio móvil necesita de dos partes: un proveedor de servicios y el usuario del servicio \cite{treintaydos}. \\
+
+Existen dos tipos de aplicaciones móviles: \\
+ \begin{itemize}
+ 	\item \textbf{Aplicaciones móviles web} \\
+ 	
+ 	Una aplicación web para móviles, es una aplicación web con formato para teléfonos inteligentes y tabletas, y se accede a través del navegador web del dispositivo móvil. \\
+ 	
+ 	\item \textbf{Aplicaciones móviles nativas} \\
+ 	
+ 	Una aplicación móvil nativa está construida específicamente para un dispositivo en particular y su sistema operativo. A diferencia de una aplicación web que se accede a través de Internet, una aplicación nativa se descarga desde una tienda virtual y se instala en el dispositivo. \\
+ 	
+ 	El desarrollo nativo es el desarrollo de aplicaciones que utilizan las especificaciones de los proveedores del sistema operativo (Google para Android y Apple para IOS) esto implica ajustarse a los lenguajes, frameworks e IDE’s del fabricante o proveedor \cite{treintaytres}.
+ 	
+ \end{itemize}
