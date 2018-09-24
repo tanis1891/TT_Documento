@@ -1,0 +1,145 @@
+\section{Métricas y estimación del personal, tiempo y esfuerzo para el desarrollo del prototipo}
+
+Un factor importante de cualquier procedimiento de la ingeniería es la medición. Se pueden usar medidas para comprender mejor los atributos de los modelos que se crean y para valorar la calidad de los productos o sistemas sometidos a ingeniería. Medir es el método a través del cual se determinan números o símbolos a los atributos de las entidades en el mundo real de manera que se les define de acuerdo con reglas claramente determinadas […]. Métrica es una medida cuantitativa del grado en el que un sistema, componente o proceso posee un atributo determinado. \\
+
+Aunque las métricas de producto para el software de computadora son imperfectas, pueden proporcionar una forma sistemática de valorar la calidad con base en un conjunto de reglas claramente definidas. \\
+
+Para el desarrollo del proyecto se ocupará la métrica basada en funciones, la cual se basa en la métrica de punto de función (PF), de modo que puede usarse de manera efectiva como medio para medir la funcionalidad que entra a un sistema. Al usar datos históricos, la métrica PF puede entonces usarse para:
+
+\begin{itemize}
+	\item Estimar el costo o esfuerzo requerido para diseñar, codificar y probar el software
+	\item Predecir el número de errores que se encontraran durante las pruebas
+	\item Prever el número de componentes y/o de líneas fuente proyectadas en el sistema implementado
+\end{itemize}
+
+Los puntos de función se derivan usando una relación empírica basada en medidas contables (directas) del dominio de información del software y en valoraciones cualitativas de la complejidad del software. \\
+
+Para calcular los Puntos de Función (PF), se usa la siguiente relación:
+
+\begin{equation}
+  PF = conteo \quad total \quad \times \quad[0\ldotp65 + 0\ldotp01 \times \sum(F_i)]
+\end{equation}
+
+Donde $conteo\quad total$ es la suma de todas las entradas $PF$ obtenidas de la Tabla 2.1, los $F_i (i=1 \quad al \quad 14)$ son Factores de Ajuste de Valor $(FAV)$ con base en respuestas a las siguientes preguntas: \\
+
+Cada una de estas preguntas se responde usando una escala que varía de 0 (no importante o aplicable) a 5 (absolutamente esencial) \cite{cuarentaydos}.
+
+\begin{table}
+	\centering
+	\begin{tabular}{|p{1cm}|p{10cm}|p{1cm}|}
+		\hline
+		1. & ¿El sistema requiere de respaldo y recuperación confiables? & 5\\
+		\hline 
+		2.	& ¿Se requieren comunicaciones de datos especializadas para transferir información hacia o desde la aplicación? & 5 \\
+		\hline
+		3. & ¿Existen funciones de procesamiento distribuidas? & 0 \\
+		\hline
+		4. & ¿El desempeño es crucial? & 5 \\		
+		\hline
+		5. & ¿El sistema correrá en un entorno operativo existente y enormemente utilizado? & 5 \\
+		\hline
+		6. & ¿El sistema requiere entrada de datos en línea? & 4 \\
+		\hline
+		7. & ¿La entrada de datos en línea requiere que la transacción de entrada se construya sobre múltiples pantallas u operaciones? & 5 \\
+		\hline
+		8. & ¿Los ALI (archivo configuración sistema) se actualizan en línea? & 3 \\
+		\hline
+		9. & ¿Las entradas, salidas, archivos o consultas son complejos? & 5 \\
+		\hline
+		10. & ¿El procesamiento interno es complejo? & 5 \\
+		\hline
+		11. & ¿El código se diseña para ser reutilizable? & 5 \\
+		\hline
+		12. & ¿La conversión y la instalación se incluyen en el diseño? & 4 \\
+		\hline
+		13. & ¿El sistema se diseña para instalaciones múltiples en diferentes organizaciones? & 5 \\
+		\hline
+		14. & ¿La aplicación se diseña para facilitar el cambio y su uso por parte del usuario? & 5 \\
+		\hline
+		\multicolumn{2}{|l}{Cuenta total $(\sum f_i)$} & 61 \\
+		\cline{1-3}
+	\end{tabular}
+	\textbf{\caption{\small{\textbf{Factores de ajuste de valor \cite{cuarentaydos}.}}}}
+\end{table}
+
+
+Calculo de puntos de función \\
+
+\begin{table}[htb]
+	\centering
+	\begin{tabular}{|p{3cm}|p{1.2cm}|p{1.2cm}|p{1.4cm}|p{1.4cm}|p{1.2cm}|p{1.2cm}|}
+		\hline
+		Valor de dominio de información & \multicolumn{6}{c|}{Factor ponderado} \\
+		\cline{2-7} 
+		& Conteo & Simple & Promedio & Complejo & Factor tomado & Subtotal \\
+		\hline \hline
+		Entradas de usuario & 5	x & 3 & 4 & 6 & 6 & 30 \\ \cline{2-7}
+		\hline 
+		Salidas de usuario & 4 x & 4 & 5 & 7 & 7 & 28 \\ \cline{2-7}
+		\hline 
+		Peticiones de usuario & 2 x & 3 & 4 & 6 & 3 & 6 \\ \cline{2-7}
+		\hline 
+		Archivos & 1 x & 7 & 10 & 15 & 7 & 7 \\ \cline{2-7}
+		\hline 
+		Interfaces externas & 2	x & 5 & 7 & 10 & 10 & 20 \\ \cline{2-7}
+		\hline 
+		\multicolumn{6}{|l}{Conteo total} & 91 \\
+		\cline{1-7}
+	\end{tabular}
+	\textbf{\caption{\small{\textbf{Cálculo de puntos de función \cite{cuarentaydos}.}}}}
+	\label{Justificacion:Tabla1.1}
+\end{table}
+
+\textbf{Entradas de usuario:} \\
+
+\begin{enumerate}
+	\item Lectura temperatura
+	\item Lectura frecuencia cardíaca
+	\item Lectura acelerómetro
+	\item Configuración de frecuencia de lecturas
+	\item Configuración de cada sensor
+\end{enumerate}
+
+\textbf{Salidas de usuario:} \\
+
+\begin{enumerate}
+	\item Señales de las variables a medir
+	\item Interpretación de las señales
+	\item Identificación de las señales que sobrepasan los límites estimados
+	\item Envío de alertas al dispositivo móvil del usuario indirecto
+\end{enumerate}
+
+\textbf{Peticiones de usuario:} \\
+
+\begin{enumerate}
+	\item Llamar a un centro de salud
+	\item Observar las variables en tiempo real
+\end{enumerate}
+
+\textbf{Archivos:} \\
+
+\begin{enumerate}
+	\item Información de las variables medidas
+\end{enumerate}
+
+\textbf{Interfaces externas:} \\
+
+\begin{enumerate}
+	\item Aplicación móvil
+	\item Brazalete
+\end{enumerate}
+
+Una vez que se obtuvieron todos los datos, se sustituye en la formula siguiente: \\
+
+\begin{equation}
+PF = conteo \quad total \quad \times \quad[0\ldotp65 + 0\ldotp01 \times \sum(F_i)]
+\end{equation}
+
+\begin{equation}
+PF = 91 \quad \times \quad[0\ldotp65 + 0\ldotp01 \times (61)] = 114\ldotp66
+\end{equation}
+
+Se puede notar que la cantidad de funciones necesarias son 114.66. \\
+
+Tomando en cuenta que un estándar de líneas de código por función en un sistema embebido es de 70 LDC por función, recordando que anteriormente obtuvimos 108.36 funciones, entonces la cantidad de miles de líneas por código (KLDC) está dado por: \\
+
