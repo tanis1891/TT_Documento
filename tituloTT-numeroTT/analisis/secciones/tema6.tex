@@ -1,0 +1,119 @@
+\newpage\section{An{á}lisis de Riesgos}
+
+En esta sección hablaremos de los riesgos que pueden afectar el desarrollo del prototipo, la probabilidad que de estos ocurran, y el impacto que tienen en el prototipo. El análisis y la gestión de riesgos son una serie de pasos que nos permiten comprender y gestionar la incertidumbre que se tiene en el prototipo \cite{cuarentaycuatro}. \\
+
+Comenzaremos definiendo lo que es un riesgo para poder identificarlos, un riesgo es un problema potencial que afecta al desarrollo del proyecto, este puede pasar o no. \\
+
+Los pasos que realizaremos para analizar y gestionar los riesgos son los siguientes: \\
+
+\begin{itemize}
+	\item Identificarlos.
+	\item Evaluar la probabilidad de ocurrencia.
+	\item Estimar el impacto que tendrían.
+	\item Establecer un plan de contingencia para los riesgos de alto impacto.	
+\end{itemize}
+
+Los riesgos que se identificaron son los siguientes: \\
+
+\begin{itemize}
+	\item R1: Mala organización con los integrantes del equipo.
+	\item R2: El usuario no está capacitado para utilizar el producto.
+	\item R3: Un integrante del equipo sufra alguna enfermedad grave.
+	\item R4: Los sensores no se encuentren en óptimas condiciones a la hora de las pruebas.
+	\item R5: La comunicación entre los sensores y el microcontrolador no sea correcta.
+	\item R6: El módulo de Wifi no transmita bien los datos.
+	\item R7: La comunicación entre la aplicación y hardware no son correctos.
+	\item R8: El prototipo no se termine en el tiempo estimado.
+	\item R9: El dispositivo móvil no cuenta con las características especificadas para el proyecto.
+	\item R10: El usuario directo arruine la pulsera de sensores.
+	\item R11: Se presente un inconveniente en el desarrollo por falta de conocimiento.
+	\item R12: La alimentación suministrada por las pilas hacia los sensores no sea suficiente para realizar las pruebas mínimas.
+	\item R13: El microcontrolador se arruine.
+	\item R14: El prototipo no cumpla las expectativas del cliente.
+	\item R15: Los sensores no se encuentre calibrados.
+\end{itemize}
+
+Una vez que se identificaron los riesgos entre el equipo de trabajo, lo siguiente es estimar la probabilidad de que ocurran, esta probabilidad se toma de los integrantes del equipo pues cada uno tiene en mente las actividades que se deben desarrollar, y los problemas que se pueden presentar. Además, que se identifican los riesgos de acuerdo, al tipo de riesgo y al nivel de impacto que tienen \cite{cuarentaycuatro}. \\
+
+\textbf{Tipo de riesgo} \\
+
+\textbf{Riesgo de rendimiento (Rr):} El grado de incertidumbre con el que el producto encontrará sus requisitos y se adecue para su empleo pretendido. \\
+
+\textbf{Riesgo de coste (Rc):} El grado de incertidumbre que mantendrá el presupuesto del proyecto. \\
+
+\textbf{Riesgo de soporte (Rs):} El grado de incertidumbre de la facilidad del software para corregirse, adaptarse y ser mejorado. \\
+
+\textbf{Riesgo de la planificación temporal (Rpt):} El grado de incertidumbre con que se podrá mantener la planificación temporal y de que el producto se entregue a tiempo. \\
+
+El impacto se considera de acuerdo a los siguientes valores: \\
+
+\begin{enumerate}
+	\item Catastrófico.
+	\item Critico.
+	\item Marginal.
+	\item Despreciable.
+\end{enumerate}
+
+\begin{longtable}{|p{1cm}|p{1.5cm}|p{2cm}|p{1.2cm}|p{5.5cm}|}
+%	\centering
+		\hline
+		Riesgo & Categoría & Probabilidad & Impacto	& Plan de contingencia \\
+		\hline \hline
+		R1 & Rpt & 20\%	& 2	& Evaluar las actividades en equipo y asignar actividades faltantes, de acuerdo al cronograma \\
+		\hline 
+		R2 & Rr & 30\% & 3 & Se realizarán manuales o guías que expliquen el funcionamiento y uso del prototipo \\
+		\hline 
+		R3 & Rpt & 10\% & 2 & Se dividirá las actividades faltantes con los únicos integrantes del equipo \\
+		\hline
+		R4 & Rs & 50\% & 3 & Se realizarán pruebas mínimas antes de realizar las pruebas finales, se tendrán repuesto en el caso de que sea necesario cambiarlos \\
+		\hline
+		R5 & Rs & 30\% & 1 & Se realizarán pruebas entre cada sensor y el microcontrolador, para determinar la posible falla \\
+		\hline
+		R6 & Rs & 40\% & 2 & Se realizarán pruebas con el módulo de manera individual, y se observarán las posibles fallas que este pueda presentar, para realizar buenas prácticas \\ 
+		\hline
+		R7 & Rs & 40\% & 1 & Se analizará el hardware de manera individual, una vez que se determine si los resultados son los esperados, evaluaremos la aplicación de acuerdo módulos por los que pasan los datos \\ 
+		\hline
+		R8 & Rpt & 40\% & 1 & Se organizarán juntas, en las que se evaluara el avance del prototipo y las actividades faltantes, para determinar un plan de acción, para regularizar los tiempos con el cronograma \\ 
+		\hline
+		R9 & Rs & 20\% & 2 & Se indicará las tecnologías requeridas para el funcionamiento del prototipo \\ 
+		\hline
+		R10 & Rr & 10\% & 2 & Se pondrán en el manual de usuario, acciones que pongan en riesgo el funcionamiento del prototipo, con el fin de que se tomen en cuenta \\ 
+		\hline
+		R11 & Rpt & 30\% & 1 & Se realizarán investigaciones previas para dominar el tema.
+		Se realizarán juntas con el fin de discutir los temas desconocidos, para después tomar cursos o talleres que nos permitan cubrir ese conocimiento \\ 
+		\hline
+		R12 & Rr & 30\% & 4 & Se realizarán pruebas una vez que se tenga implementado todo el prototipo, con el fin de analizar la corriente que esté consume, y determinar el arreglo de pilas que se debe utilizar \\ 
+		\hline
+		R13 & Rr & 10\% & 2 & Comprar varios repuestos para poder cambiarlos, además de analizar el manual para determinar buenas prácticas \\ 
+		\hline
+		R14 & Rr & 20\% & 2 & Se pensará en las dificultades del cliente indirecto, con el fin de reducir las molestias que pudiese presentar el prototipo \\ 
+		\hline
+		R15 & Rr & 10\% & 4 & Se implementará un estudio del usuario final con el fin de estudiar las variables, que pudiese presentar su condición actual, se considerará el factor de emisión su frecuencia cardíaca acorde a su edad \\ 
+		\hline	
+		\caption{Análisis de riesgos \cite{cuarentaycuatro}.}
+\end{longtable}
+
+Una vez que se tienen los riesgos se evalúa el impacto y la probabilidad de cada riesgo, mediante la Tabla 2.XVI \\
+
+\begin{table}[htb]
+	\begin{tabular}{|p{2cm}|p{1.5cm}|p{2cm}|p{1.6cm}|p{1.5cm}|p{2.1cm}|}
+%		\centering
+		\hline
+		\cellcolor{blue} & \cellcolor{yellow}Impacto & Despreciable & Marginal & Critico & Catastrófico\\
+		\cline{2-6}
+		\cellcolor{blue} \multirow{2}{2cm}[5mm ]{Probabilidad} & & 4 & 3 & 2 & 1 \\
+		\hline
+		\cellcolor{blue} Raro & 1 & \cellcolor{green} R15 & \cellcolor{green} R2,R9,R13, & \cellcolor{yellow} R1, R3, R10, R13,R14, & \cellcolor{red} \\
+		\hline
+		\cellcolor{blue} Moderado & 2 & \cellcolor{yellow} R12 & \cellcolor{yellow} & \cellcolor{red} & \cellcolor{red} R11, R5 \\
+		\hline
+		\cellcolor{blue} Muy probable & 3 & \cellcolor{yellow} & \cellcolor{yellow} R4 & \cellcolor{red} R6 & \cellcolor{red} R7,R8, \\
+		\hline
+		\cellcolor{blue} Seguro & 4 & \cellcolor{yellow} & \cellcolor{yellow} & \cellcolor{red} & \cellcolor{red} \\
+		\hline
+	\end{tabular}
+\textbf{\caption{\small{\textbf{Semáforo de riesgos \cite{cuarentaycuatro}.}}}}
+\end{table}
+
+
+

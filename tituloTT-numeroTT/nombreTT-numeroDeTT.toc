@@ -22,3 +22,11 @@
 \contentsline {chapter}{\numberline {2}An\IeC {\'a}lisis}{41}
 \contentsline {section}{\numberline {2.1}Metodolog\IeC {\'\i }a}{41}
 \contentsline {section}{\numberline {2.2}M\IeC {\'e}tricas y estimaci\IeC {\'o}n del personal, tiempo y esfuerzo para el desarrollo del prototipo}{44}
+\contentsline {subsection}{\numberline {2.2.1}Modelo de estimaci\IeC {\'o}n COCOMO}{48}
+\contentsline {section}{\numberline {2.3}An\IeC {\'a}lisis de requerimientos}{50}
+\contentsline {section}{\numberline {2.4}Reglas de negocio}{52}
+\contentsline {section}{\numberline {2.5}An{\IeC {\'a}}lisis de factibilidad}{53}
+\contentsline {subsection}{\numberline {2.5.1}An\IeC {\'a}lisis de factibilidad t\IeC {\'e}cnica}{54}
+\contentsline {subsection}{\numberline {2.5.2}An\IeC {\'a}lisis de factibilidad operativa}{55}
+\contentsline {subsection}{\numberline {2.5.3}An\IeC {\'a}lisis de factibilidad econ\IeC {\'o}mica}{56}
+\contentsline {section}{\numberline {2.6}An{\IeC {\'a}}lisis de Riesgos}{57}

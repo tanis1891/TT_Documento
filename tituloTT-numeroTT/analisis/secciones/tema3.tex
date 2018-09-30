@@ -1,0 +1,80 @@
+\section{Análisis de requerimientos}
+
+Los requerimientos funcionales son las soluciones que debe cumplir el prototipo para cubrir los objetivos generales. \\
+
+El origen de los requerimientos del prototipo, derivan por una parte del aumento de la población de adultos mayores, las vulnerabilidades que presentan, brindando herramientas que faciliten su cuidado y atención, sin descuidar las actividades que el jefe del hogar debe realizar para solventar los gastos, está a su vez debe tener un precio accesible. \\
+
+La problemática se identificó de informes nacionales e internacionales dedicados al estudio del núcleo familiar, aumento de la población, el riesgo y capacidades diferentes que presentan las personas de la tercera edad y el uso del tiempo de hombres y mujeres de edad avanzada. Los informes fueron obtenidos de organizaciones como OMS, INEGI y Banco Mundial. \\
+
+\begin{itemize}
+	\item \textbf{Requerimientos funcionales:}
+\end{itemize}
+
+A continuación, se muestran los requerimientos funcionales: \\
+
+\begin{table}
+	\centering
+	\begin{tabular}{|p{2cm}|p{3cm}|p{6cm}|}
+		\hline
+		Identificador & Nombre & Descripción \\
+		\hline \hline
+		RF1 & Alimentar el prototipo & Alimentar el prototipo con 3v o 5v \\
+		\hline
+		RF2 & Configuración del prototipo & Configurar las características del usuario directo en el microcontrolador así como la frecuencia de lecturas que se realizaran al usuario directo \\
+		\hline
+		RF3 & Lectura de datos & Obtener las magnitudes medidas por el sensor de temperatura, ritmo cardíaco y acelerómetro \\		
+		\hline
+		RF4 & Evaluación de la temperatura & Verificar si la temperatura del usuario directo se encuentra entre $(36\ldotp5^{\circ}C)$ y $(37\ldotp2^{\circ}C)$ (de acuerdo a la OMS) \\
+		\hline
+		RF5 & Evaluación de ritmo cardíaco & Verificar el ritmo cardíaco del usuario directo se encuentra en un rango aceptable de acuerdo a su edad (basadas en mediciones de instituciones médicas) \\
+		\hline
+		RF6 & Evaluación de la aceleración & Verificar si la magnitud arrojada por el acelerómetro es normal en una persona de la tercera edad \\
+		\hline
+		RF7 & Emisión de alertas & Informar al usuario indirecto si los parámetros obtenidos han sobrepasado los rangos aceptables \\
+		\hline
+		RF8 & Prueba de comunicación & Comprobar la comunicación entre los sensores y el microcontrolador, el dispositivo y la aplicación \\
+		\hline
+		RF9 & Estado del usuario directo & Muestra la aplicación los últimos valores obtenidos por los sensores \\
+		\hline
+		RF10 & Historial de variables & Almacenar las lecturas obtenidas por los sensores \\
+		\hline
+	\end{tabular}
+	\textbf{\caption{\small{\textbf{Requerimientos funcionales.}}}}
+\end{table}
+
+\newpage
+
+\begin{itemize}
+	\item \textbf{Requerimientos no funcionales:}
+\end{itemize}
+
+Los requerimientos no funcionales no tienen que ver con los objetivos generales de manera directa, pero no se involucran con las funciones primordiales del prototipo, y se identificaron los siguientes: \\
+
+\begin{table}
+	\centering
+	\begin{tabular}{|p{2cm}|p{3cm}|p{6cm}|}
+		\hline
+		Identificador & Nombre & Descripción\\
+		\hline \hline
+		RF1 & Costo & El costo debe ser accesible para el usuario final \\
+		\hline
+		RF2 & Interfaz & La interfaz debe ser amigable para el usuario \\
+		\hline
+		RF3 & Alimentación del prototipo & El prototipo debe tener un consumo mínimo de energía \\		
+		\hline
+		RF4 & Confort del prototipo	& El dispositivo no debe ser incómodo para el usuario directo \\
+		\hline
+		RF5 & Estabilidad & El prototipo debe ser constante al tiempo que debe emitir las mediciones, conforme se haya configurado la frecuencia de estás \\
+		\hline
+	\end{tabular}
+	\textbf{\caption{\small{\textbf{Requerimientos no funcionales.}}}}
+\end{table}
+
+\begin{itemize}
+	\item \textbf{Actores del sistema:} 
+\end{itemize}
+
+\begin{enumerate}
+	\item \textbf{Usuario Directo:} Es la persona portadora del dispositivo, a la cual se estará monitoreando y de quien se obtendrán las lecturas de: temperatura, ritmo cardíaco y caídas.
+	\item \textbf{Usuario Indirecto:} Es la persona que tendrá acceso a la aplicación móvil y a quien se le harán las notificaciones en caso de que el usuario directo necesite algún tipo de ayuda
+\end{enumerate}

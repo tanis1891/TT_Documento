@@ -143,3 +143,104 @@ Se puede notar que la cantidad de funciones necesarias son 114.66. \\
 
 Tomando en cuenta que un estándar de líneas de código por función en un sistema embebido es de 70 LDC por función, recordando que anteriormente obtuvimos 108.36 funciones, entonces la cantidad de miles de líneas por código (KLDC) está dado por: \\
 
+\begin{equation}
+	Lenguaje \quad a \quad utilizar \quad C++ \quad = \quad 70 \frac{LDC}{PF(media)} 
+\end{equation}
+
+\begin{equation}
+	LDC \quad = \quad PF \times \frac{LDC}{PF(media)}
+\end{equation}
+
+\begin{equation}
+	LDC \quad = \quad 114\ldotp66 \times 70 \quad = \quad 8,026\ldotp2 \approx 8,026
+\end{equation}
+
+Teniendo esto, calculamos las KLDC, que son las miles de líneas de código: \\
+
+\begin{equation}
+	KLDC \quad = \quad \frac{LDC}{1000} = \frac{8,026\ldotp2}{1000} \approx 8\ldotp02
+\end{equation} \\
+
+\subsection{Modelo de estimación COCOMO}
+
+El modelo fue publicado por primera vez por el Dr. Barry Boehm en 1981, introduce una jerarquía de modelos de estimación de software con el nombre de COCOMO, por Constructive Cost Model (Modelo Constructivo de Costo). \\
+
+Dado que el producto está en su primera fase de construcción, se utilizará COCOMO básico, el cual calcula el esfuerzo (y el costo) del desarrollo de software en función del tamaño del programa, expresada en las líneas estimadas de código (LDC) \cite{cuarentaytres}. \\
+
+Los modelos COCOMO están definidos para tres tipos de proyectos: 
+
+\begin{itemize}
+	\item \textbf{Modo orgánico:} Proyectos de software relativamente pequeño y sencillo.
+	\item \textbf{Modo semiacoplado:} Proyectos de software intermedio, con variados niveles de experiencia, que deben satisfacer requisitos poco o medio rígido.
+	\item \textbf{Modo empotrado:} Proyectos de software que deben ser desarrollados en un conjunto de hardware, software y restricciones operativas muy restringidas.
+\end{itemize}
+
+De esta manera el modelo que se utilizará será COCOMO básico semiaclopado, considerando que el prototipo tiene requisitos medianamente rígidos, además de contar con el desarrollo de software y hardware. \\
+
+En la Tabla 2.3 podemos notar el uso de COCOMO básico debido a la complejidad del trabajo. Los coeficientes ab, bb, cb y db, fueron obtenidos empíricamente. \\
+
+\begin{table}[htb]
+	\centering
+	\begin{tabular}{|p{4cm}|p{1.2cm}|p{1.2cm}|p{1.4cm}|p{1.4cm}|}
+		\hline
+		Modelo COCOMO & \multicolumn{4}{c|}{Básico} \\
+		\hline
+		\cline{2-5} 
+		Proyecto de software & $a_b$ & $b_b$ & $c_b$ & $d_b$ \\
+		\hline \hline
+		Orgánico & 2.4 & 1.05 & 2.5 & 0.38 \\ \cline{2-5}
+		\hline 
+		Semiacoplado & 3.0 & 1.12 & 2.5 & 0.35 \\ \cline{2-5}
+		\hline 
+		Empotrado & 3.6 & 1.20 & 2.5 & 0.32 \\ \cline{2-5}
+		\hline 
+	\end{tabular}
+	\textbf{\caption{\small{\textbf{Modelo COCOMO} \cite{cuarentaytres}.}}}
+	\label{Justificacion:Tabla2.2.1}
+\end{table}
+
+Seguidamente la ecuación de COCOMO básico es la siguiente: \\
+
+\begin{equation}
+	Esfuerzo(dado \quad en \quad persona-mes): E = a_b \ast KLDC^{bb}
+\end{equation}
+
+Sustituyendo los valores de la tabla de COCOMO básico con la ecuación anterior, se tiene: \\
+
+\begin{equation}
+	E \quad = \quad 3\ldotp0 \times 8\ldotp0262^{1\ldotp12} \quad = \quad 30\ldotp9152 \frac{persona}{mes}
+\end{equation}
+
+Posteriormente se calcula el tiempo de desarrollo mediante la siguiente fórmula: \\
+
+\begin{equation}
+	Tiempo \quad de \quad desarrollo \quad (dado \quad en \quad meses:) \quad t_d \quad = \quad c_d \times E^{d_b}
+\end{equation}
+
+Sustituyendo los valores de la tabla de COCOMO básico con la ecuación anterior, se tiene: \\
+
+\begin{equation}
+	t_d \quad = \quad 2\ldotp5 \times 30\ldotp9152^{0\ldotp35}  \quad = \quad 8\ldotp3080 \quad\approx \quad 8 \quad meses
+\end{equation}
+
+Por medio de las dos ecuaciones previamente utilizadas, se puede obtener la cantidad de personas requeridas para realizar el proyecto: \\
+
+Pesonal requerido para realizar el proyecto: 
+
+\begin{equation}
+	Personal \quad = \quad \frac{Esfuerzo(persona-mes)}{Tiempo(mes)}
+\end{equation}
+
+\begin{equation}
+	Personal \quad = \quad \frac{30\ldotp9152}{8\ldotp3080} \quad = \quad 3\ldotp72 \quad \approx \quad 4 \quad personas
+\end{equation}
+
+Los resultados arrojan que el tiempo en el que se debe desarrollar el proyecto en 8 meses con 4 personas. Por otro lado, con los resultados obtenidos se pueden obtener parámetros como la productividad, como se muestra en la siguiente formula: \\
+
+\begin{equation}
+	Productividad \quad = \quad KLDC \quad \div \quad Personas
+\end{equation}
+
+\begin{equation}
+	Productividad \quad = \quad 8\ldotp02 \quad \div \quad 4 \quad personas \quad = \quad 2\ldotp00
+\end{equation}

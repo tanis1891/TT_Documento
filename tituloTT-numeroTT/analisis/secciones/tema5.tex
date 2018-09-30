@@ -1,0 +1,207 @@
+\section{An{á}lisis de factibilidad}
+
+A continuación, se describen los estudios de factibilidad: técnica, operacional y económica, para contemplar los recursos humanos y materiales necesarios para que dicho proyecto pueda desarrollarse e implantarse de igual manera se obtendrá una estimación del costo real del proyecto para que pueda realizarse durante un periodo de 10 meses. \\
+
+\subsection{Análisis de factibilidad técnica}
+
+En este apartado abordaremos los recursos de hardware y software necesarios para que el proyecto pueda desarrollarse e implantarse, tomando en cuenta que dichos recursos son necesarios para que el proyecto pueda funcionar de manera correcta. \\
+
+\begin{table}
+	\centering
+	\begin{tabular}{|p{5cm}|p{1.5cm}|p{6cm}|}
+		\hline
+		Recurso & Cantidad & Especificaciones\\
+		\hline \hline
+		Dispositivo móvil, preferentemente Smartphone, con acceso a internet y con sistema operativo Android & 1 & Este dispositivo se utilizará para recibir las alarmas o alertas en caso de que haya algún problema con el usuario directo \\
+		\hline
+		Dispositivo Programador NOMADA & 1 & Este programador se utilizará para programar el microcontrolador \\
+		\hline
+		Computadora portátil con procesador Intel Core i5, 8GB de Memoria RAM, disco duro de 1TB y pantalla LED de 14.0" & 3 & Las computadoras serán utilizadas por los desarrolladores para crear y programar las aplicaciones necesarias para el proyecto \\		
+		\hline
+		Sensor de temperatura MLX9061 & 1 & Este sensor se utilizará, para medir la temperatura del usuario \\
+		\hline
+		Sensor acelerómetro MPU-6050 & 1 & Este sensor se utilizará, para medir las caídas que pueda sufrir del usuario \\
+		\hline
+		Sensor de frecuencia cardíaca MAX30100 & 1 & Este sensor se utilizará, para medir la frecuencia cardíaca del usuario \\
+		\hline
+		Microcontrolador ATMega 328-PB & 1 & Este dispositivo se utilizará, para recibir las señales de los sensores y enviar la información a la aplicación móvil \\
+		\hline
+		Módulo Wifi ESP8266 & 1 & Este dispositivo se utilizará, para la comunicación entre el microcontrolador y la aplicación móvil \\
+		\hline
+	\end{tabular}
+	\textbf{\caption{\small{\textbf{Recursos de hardware.}}}}
+\end{table}
+
+\begin{table}
+	\centering
+	\begin{tabular}{|p{4cm}|p{1.5cm}|p{7cm}|}
+		\hline
+		Recurso & Cantidad & Especificación\\
+		\hline \hline
+		JAVA 8.0 o posterior & 1 & Lenguaje de programación para el desarrollo de la aplicación móvil \\
+		\hline
+		AVR Studio 7 & 3 & Herramienta de desarrollo para programar el microcontrolador AVR \\
+		\hline
+		ANDROID STUDIO 2.3 & 3 & Herramienta de desarrollo para programar aplicaciones móviles \\		
+		\hline
+		START UML & 3 & Herramienta de modelado de diagramas UML, para desarrollo del reporte técnico \\
+		\hline
+		Microsoft Office & 3 & Herramienta para el desarrollo del reporte técnico \\
+		\hline
+		Sistema Operativo Linux Fedora 24 Server & 1 & Sistema operativo en el cual se recomienda este alojada la aplicación móvil para su correcto funcionamiento \\
+		\hline
+		Eagle & 1 & Herramienta para el diseño de la placa donde se montaran los sensores \\
+		\hline
+		Sistema Operativo Windows 10 & 3 & Sistema operativo con los que deberán contar las computadoras para desarrollo \\
+		\hline
+	\end{tabular}
+	\textbf{\caption{\small{\textbf{Recursos de software.}}}}
+\end{table}
+
+\subsection{Análisis de factibilidad operativa}
+
+A continuación mencionaremos los requisitos y habilidades con los que debe contar el personal, quienes desarrollarán el proyecto. 
+
+\begin{table}
+%	\centering
+	\begin{tabular}{|p{2cm}|p{1.5cm}|p{8cm}|}
+		\hline
+		Recurso & Cantidad & Habilidades y características\\
+		\hline \hline
+		Ingenieros en Sistemas & 3 & Persona que cuente con habilidades de programación en aplicaciones móviles, construcción de circuitos, desarrollo de aplicaciones en c/c++, modelado y creación de reportes técnicos, trabajo en equipo y alta disponibilidad \\
+		\hline
+	\end{tabular}
+	\textbf{\caption{\small{\textbf{Recursos humanos.}}}}
+\end{table}
+
+\newpage\subsection{Análisis de factibilidad económica}
+
+En este apartado se calcula el costo estimado de desarrollo del proyecto que será elaborado en un periodo de 10 meses y se hará un presupuesto de costos y gastos del proyecto detallado en las siguientes tablas. \\
+
+\begin{table}[htb]
+	\centering
+	\begin{tabular}{|p{1cm}|p{2cm}|p{1.5cm}|p{1.8cm}|p{1.8cm}|p{1.8cm}|}
+		\hline
+	    \multicolumn{6}{|c|}{Costos y gastos de recursos humanos del proyecto} \\
+		\cline{1-6} \hline
+		N$\circ$ & Puesto & Cantidad & Sueldo mensual & Sueldo para 10 meses & Total \\
+		\hline 
+		1.- & Líder de proyecto / programador & 3 & \$15,000.00 & \$150,000.00 & \$450,000.00 \\ \cline{1-6}
+		\hline 
+	\end{tabular}
+	\textbf{\caption{\small{\textbf{Costos y gastos de recursos humanos.}}}}
+\end{table}
+
+\begin{table}[htb]
+	\centering
+	\begin{tabular}{|p{1cm}|p{4cm}|p{1.5cm}|p{2cm}|p{2cm}|}
+		\hline
+		\multicolumn{5}{|c|}{Costos y gastos de recursos materiales de hardware} \\
+		\cline{1-5} \hline
+		N$\circ$ & Concepto & Cantidad & Costo unitario & Costo total \\
+		\hline 
+		1.- & Dispositivo móvil & 1 & \$7,999.00 & \$7,999.00 \\ \cline{1-5}
+		\hline 
+		2.- & Dispositivo programador para microcontrolador & 1 & \$420.00 & \$420.00 \\ \cline{1-5}
+		\hline 
+		3.- & Computadora portátil & 3 & \$13,146.00 & \$39,438.00 \\ \cline{1-5}
+		\hline 
+		4.- & Sensor de temperatura MLX9061 & 1 & \$280.00 & \$280.00 \\ \cline{1-5}
+		\hline
+		5.- & Sensor acelerómetro MPU-6050 & 1 & \$90.00 & \$90.00 \\ \cline{1-5}
+		\hline 
+		6.- & Sensor frecuencia cardiaca MAX30100 & 1 & \$460.00 & \$460.00 \\ \cline{1-5}
+		\hline
+		7.- & Microcontrolador ATMega 328-PB & 1 & \$400.00 & \$400.00 \\ \cline{1-5}
+		\hline
+		8.- & Módulo Wifi ESP8266B & 1 & \$120.00 & \$120.00 \\ \cline{1-5}
+		\hline
+	\end{tabular}
+	\textbf{\caption{\small{\textbf{Costos y gastos de recursos materiales de hardware.}}}}
+\end{table}
+
+\begin{table}[htb]
+	\centering
+	\begin{tabular}{|p{1cm}|p{3cm}|p{1.5cm}|p{2cm}|}
+		\hline
+		\multicolumn{4}{|c|}{Costos y gastos de recursos materiales de software} \\
+		\cline{1-4} \hline
+		N$\circ$ & Concepto & Cantidad & Costo total \\
+		\hline 
+		1.- & Microsoft Office & 3 & \$1,099.00 \\ \cline{1-4}
+		\hline 
+		\multicolumn{3}{|c|}{Totales} & \$1,099.00 \\ \cline{1-3} 
+		\hline
+	\end{tabular}
+	\textbf{\caption{\small{\textbf{Costos y gastos de recursos materiales de software.}}}}
+\end{table}
+
+\begin{table}[htb]
+	\centering
+	\begin{tabular}{|p{1cm}|p{2cm}|p{4cm}|p{4cm}|}
+		\hline
+		\multicolumn{4}{|c|}{Costos y gastos de recursos materiales del proyecto} \\
+		\cline{1-4} \hline
+		N$\circ$ & Concepto & Valor mes & Valor por 10 meses \\
+		\hline 
+		1.- & Papelería & \$1,000.00 & \$10,000.00 \\ \cline{1-4}
+		\hline 
+		2.- & Otros & \$1,000.00 & \$10,000.00 \\ \cline{1-4}
+		\hline
+		\multicolumn{2}{|c|}{Totales} & \$2,000.00 & \$20,099.00 \\ \cline{1-2} 
+		\hline
+	\end{tabular}
+	\textbf{\caption{\small{\textbf{Resumen de recursos materiales de proyecto.}}}}
+\end{table}
+
+\begin{table}[htb]
+		\centering
+	\begin{tabular}{|p{1cm}|p{5cm}|p{2.5cm}|p{2.5cm}|}
+		\hline
+		\multicolumn{4}{|c|}{Gastos generales del proyecto} \\
+		\cline{1-4} \hline
+		N$\circ$ & Concepto & Valor mes & Valor por 10 meses \\
+		\hline 
+		1.- & Electricidad áreas comunes & \$500.00 & \$5,000.00 \\ \cline{1-4}
+		\hline 
+		2.- & Agua áreas comunes y oficinas & \$130.00 & \$1,300.00 \\ \cline{1-4}
+		\hline
+		3.- & Servicio teléfono oficinas & \$200.00 & \$2,000.00 \\ \cline{1-4}
+		\hline
+		4.- & Servicio internet oficinas & \$700.00 & \$7,000.00 \\ \cline{1-4}
+		\hline
+		5.- & Servicio de hosting y dominio & \$146.99 & \$1,499.90 \\ \cline{1-4}
+		\hline
+		6.- & Renta del lugar de trabajo oficinal & \$5,000.00 & \$50,000.00 \\ \cline{1-4}
+		\hline
+		7.- & Servicio de limpieza & \$2,500.00 & \$25,000.00 \\ \cline{1-4}
+		\hline
+		\multicolumn{2}{|c|}{Totales} & \$9,176.99 & \$91,769.90 \\ \cline{1-2} 
+		\hline
+	\end{tabular}
+	\textbf{\caption{\small{\textbf{Resumen de recursos materiales de proyecto.}}}}
+\end{table}
+
+\begin{table}[htb]
+		\centering
+	\begin{tabular}{|p{5cm}|p{3cm}|p{3cm}|}
+		\hline
+		Concepto & Mensual & En 10 meses \\
+		\hline \hline
+		Nómina mensual & \$45,000.00 & \$450,000.00 \\
+		\hline 
+		Recursos materiales de hardware & \$49,207.00 & 49,207.00 \\
+		\hline 
+		Recursos materiales de software & \$1,099.00 & \$1,099.00 \\
+		\hline
+		Recursos materiales & \$2,000.00 & \$20,000.00 \\
+		\hline
+		Gastos generales del proyecto & \$9,176.99 & \$91,769.90 \\
+		\hline
+		Totales & \$56,176.99 & \$612,075.90 \\ 
+		\hline
+	\end{tabular}
+	\textbf{\caption{\small{\textbf{Resumen de recursos materiales de proyecto.}}}}
+\end{table}
+
+\newpage
