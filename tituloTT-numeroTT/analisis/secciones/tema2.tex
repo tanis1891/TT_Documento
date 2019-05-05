@@ -28,35 +28,50 @@ Cada una de estas preguntas se responde usando una escala que varía de 0 (no im
 	\centering
 	\begin{tabular}{|p{1cm}|p{10cm}|p{1cm}|}
 		\hline
-		1. & ¿El sistema requiere de respaldo y recuperación confiables? & 5\\
+		\centering 1. & ¿El sistema requiere de respaldo y recuperación confiables? & \centering 5\\
+		\tabularnewline
 		\hline 
-		2.	& ¿Se requieren comunicaciones de datos especializadas para transferir información hacia o desde la aplicación? & 5 \\
+		\centering 2.	& ¿Se requieren comunicaciones de datos especializadas para transferir información hacia o desde la aplicación? & \centering 5 \\
+		\tabularnewline
 		\hline
-		3. & ¿Existen funciones de procesamiento distribuidas? & 0 \\
+		\centering 3. & ¿Existen funciones de procesamiento distribuidas? & \centering 0 \\
+		\tabularnewline
 		\hline
-		4. & ¿El desempeño es crucial? & 5 \\		
+		\centering 4. & ¿El desempeño es crucial? & \centering 5 \\	
+		\tabularnewline	
 		\hline
-		5. & ¿El sistema correrá en un entorno operativo existente y enormemente utilizado? & 5 \\
+		\centering 5. & ¿El sistema correrá en un entorno operativo existente y enormemente utilizado? & \centering 5 \\
+		\tabularnewline
 		\hline
-		6. & ¿El sistema requiere entrada de datos en línea? & 4 \\
+		\centering 6. & ¿El sistema requiere entrada de datos en línea? & \centering 4 \\
+		\tabularnewline
 		\hline
-		7. & ¿La entrada de datos en línea requiere que la transacción de entrada se construya sobre múltiples pantallas u operaciones? & 5 \\
+		\centering 7. & ¿La entrada de datos en línea requiere que la transacción de entrada se construya sobre múltiples pantallas u operaciones? & \centering 5 \\
+		\tabularnewline
 		\hline
-		8. & ¿Los ALI (archivo configuración sistema) se actualizan en línea? & 3 \\
+		\centering 8. & ¿Los ALI (archivo configuración sistema) se actualizan en línea? & \centering 3 \\
+		\tabularnewline
 		\hline
-		9. & ¿Las entradas, salidas, archivos o consultas son complejos? & 5 \\
+		\centering 9. & ¿Las entradas, salidas, archivos o consultas son complejos? & \centering 5 \\
+		\tabularnewline
 		\hline
-		10. & ¿El procesamiento interno es complejo? & 5 \\
+		\centering 10. & ¿El procesamiento interno es complejo? & \centering 5 \\
+		\tabularnewline
 		\hline
-		11. & ¿El código se diseña para ser reutilizable? & 5 \\
+		\centering 11. & ¿El código se diseña para ser reutilizable? & \centering 5 \\
+		\tabularnewline
 		\hline
-		12. & ¿La conversión y la instalación se incluyen en el diseño? & 4 \\
+		\centering 12. & ¿La conversión y la instalación se incluyen en el diseño? & \centering 4 \\
+		\tabularnewline
 		\hline
-		13. & ¿El sistema se diseña para instalaciones múltiples en diferentes organizaciones? & 5 \\
+		\centering 13. & ¿El sistema se diseña para instalaciones múltiples en diferentes organizaciones? & \centering 5 \\
+		\tabularnewline
 		\hline
-		14. & ¿La aplicación se diseña para facilitar el cambio y su uso por parte del usuario? & 5 \\
+		\centering 14. & ¿La aplicación se diseña para facilitar el cambio y su uso por parte del usuario? & \centering 5 \\
+		\tabularnewline
 		\hline
-		\multicolumn{2}{|l}{Cuenta total $(\sum f_i)$} & 61 \\
+		\multicolumn{2}{|l}{Cuenta total $(\sum f_i)$} & \centering 61 \\
+		\tabularnewline
 		\cline{1-3}
 	\end{tabular}
 	\textbf{\caption{\small{\textbf{Factores de ajuste de valor \cite{cuarentaydos}.}}}}
@@ -72,7 +87,7 @@ Calculo de puntos de función \\
 		Valor de dominio de información & \multicolumn{6}{c|}{Factor ponderado} \\
 		\cline{2-7} 
 		& Conteo & Simple & Promedio & Complejo & Factor tomado & Subtotal \\
-		\hline \hline
+		\hline 
 		Entradas de usuario & 5	x & 3 & 4 & 6 & 6 & 30 \\ \cline{2-7}
 		\hline 
 		Salidas de usuario & 4 x & 4 & 5 & 7 & 7 & 28 \\ \cline{2-7}
@@ -183,11 +198,11 @@ En la Tabla 2.3 podemos notar el uso de COCOMO básico debido a la complejidad d
 	\centering
 	\begin{tabular}{|p{4cm}|p{1.2cm}|p{1.2cm}|p{1.4cm}|p{1.4cm}|}
 		\hline
-		Modelo COCOMO & \multicolumn{4}{c|}{Básico} \\
+		\centering Modelo COCOMO & \multicolumn{4}{c|}{Básico} \\
 		\hline
 		\cline{2-5} 
 		Proyecto de software & $a_b$ & $b_b$ & $c_b$ & $d_b$ \\
-		\hline \hline
+		\hline 
 		Orgánico & 2.4 & 1.05 & 2.5 & 0.38 \\ \cline{2-5}
 		\hline 
 		Semiacoplado & 3.0 & 1.12 & 2.5 & 0.35 \\ \cline{2-5}
