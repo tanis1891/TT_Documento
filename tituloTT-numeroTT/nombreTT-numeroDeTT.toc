@@ -30,3 +30,14 @@
 \contentsline {subsection}{\numberline {2.5.2}An\IeC {\'a}lisis de factibilidad operativa}{55}
 \contentsline {subsection}{\numberline {2.5.3}An\IeC {\'a}lisis de factibilidad econ\IeC {\'o}mica}{56}
 \contentsline {section}{\numberline {2.6}An{\IeC {\'a}}lisis de Riesgos}{57}
+\contentsline {section}{\numberline {2.7}An{\IeC {\'a}}lisis sensor de Temperatura}{77}
+\contentsline {subsection}{\numberline {2.7.1}Definiciones de temperatura}{77}
+\contentsline {subsection}{\numberline {2.7.2}Sensores de temperatura}{77}
+\contentsline {subsection}{\numberline {2.7.3}Definici\IeC {\'o}n de las caracter\IeC {\'\i }sticas el\IeC {\'e}ctricas}{77}
+\contentsline {subsection}{\numberline {2.7.4}Sensor MLX90614}{79}
+\contentsline {section}{\numberline {2.8}An{\IeC {\'a}}lisis sensor Aceler{\IeC {\'o}}metro}{89}
+\contentsline {subsection}{\numberline {2.8.1}Etapas de una ca\IeC {\'\i }da}{89}
+\contentsline {subsection}{\numberline {2.8.2}Algoritmo basado en umbrales y orientaci\IeC {\'o}n}{90}
+\contentsline {subsection}{\numberline {2.8.3}Selecci\IeC {\'o}n y tabla comparativa de aceler\IeC {\'o}metros}{92}
+\contentsline {subsection}{\numberline {2.8.4}Caracter\IeC {\'\i }sticas, especificaciones y funcionamiento interno del aceler\IeC {\'o}metro MPU-6050}{92}
+\contentsline {subsection}{\numberline {2.8.5}Sensor MLX90614}{92}

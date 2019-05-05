@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.2)  30 SEP 2018 00:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.2)  26 APR 2019 20:45
 entering extended mode
 **./nombreTT-numeroDeTT.tex
 (nombreTT-numeroDeTT.tex
@@ -240,23 +240,38 @@ LaTeX Warning: Label `Seccion1.6:Figura1.20' multiply defined.
 
 LaTeX Warning: Label `Justificacion:Tabla1.1' multiply defined.
 
+
+LaTeX Warning: Label `fig:sensortemperatura' multiply defined.
+
+
+LaTeX Warning: Label `fig:esquematermopar' multiply defined.
+
+
+LaTeX Warning: Label `fig:factor' multiply defined.
+
+
+LaTeX Warning: Label `fig:principiofiltro' multiply defined.
+
+
+LaTeX Warning: Label `fig:filtroiir' multiply defined.
+
 )
 \openout1 = `nombreTT-numeroDeTT.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Info: Redefining \. on input line 22.
-LaTeX Info: Redefining \% on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
 
 ("C:\Users\tanya\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
 ii"
@@ -430,8 +445,8 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@toc=\write3
 \openout3 = `nombreTT-numeroDeTT.toc'.
 
-LaTeX Info: Redefining \. on input line 43.
-LaTeX Info: Redefining \% on input line 43.
+LaTeX Info: Redefining \. on input line 44.
+LaTeX Info: Redefining \% on input line 44.
  [2] (nombreTT-numeroDeTT.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -527,12 +542,60 @@ nput line 23.
 LaTeX Warning: Citation `cuarenta' on page \es@scroman {iv} undefined on input 
 line 25.
 
+
+LaTeX Warning: Citation `cuarentaycinco' on page \es@scroman {iv} undefined on 
+input line 27.
+
+
+LaTeX Warning: Citation `cuarentayseis' on page \es@scroman {iv} undefined on i
+nput line 28.
+
+
+LaTeX Warning: Citation `cuarentaysiete' on page \es@scroman {iv} undefined on 
+input line 29.
+
+
+LaTeX Warning: Citation `cuarentayocho' on page \es@scroman {iv} undefined on i
+nput line 30.
+
+
+LaTeX Warning: Citation `cuarentayocho' on page \es@scroman {iv} undefined on i
+nput line 31.
+
+
+LaTeX Warning: Citation `cuarentaynueve' on page \es@scroman {iv} undefined on 
+input line 32.
+
+
+LaTeX Warning: Citation `cincuenta' on page \es@scroman {iv} undefined on input
+ line 33.
+
+
+LaTeX Warning: Citation `cuarentaycinco' on page \es@scroman {iv} undefined on 
+input line 34.
+
+
+LaTeX Warning: Citation `cuarentayseis' on page \es@scroman {iv} undefined on i
+nput line 35.
+
+
+LaTeX Warning: Citation `cuarentaysiete' on page \es@scroman {iv} undefined on 
+input line 36.
+
+
+LaTeX Warning: Citation `cuarentayocho' on page \es@scroman {iv} undefined on i
+nput line 37.
+
+
+LaTeX Warning: Citation `cuarentayocho' on page \es@scroman {iv} undefined on i
+nput line 38.
+
 )
 \tf@lof=\write4
 \openout4 = `nombreTT-numeroDeTT.lof'.
 
-LaTeX Info: Redefining \. on input line 44.
-LaTeX Info: Redefining \% on input line 44.
+LaTeX Info: Redefining \. on input line 45.
+LaTeX Info: Redefining \% on input line 45.
  [4] (nombreTT-numeroDeTT.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -565,13 +628,76 @@ input line 22.
 LaTeX Warning: Citation `cuarentaycuatro' on page \es@scroman {v} undefined on 
 input line 23.
 
+
+LaTeX Warning: Citation `cuarentaycuatro' on page \es@scroman {v} undefined on 
+input line 24.
+
+
+LaTeX Warning: Citation `cuarentaycuatro' on page \es@scroman {v} undefined on 
+input line 25.
+
+
+LaTeX Warning: Citation `cuarentaycuatro' on page \es@scroman {v} undefined on 
+input line 26.
+
+
+LaTeX Warning: Citation `cuarentaycuatro' on page \es@scroman {v} undefined on 
+input line 27.
+
+
+LaTeX Warning: Citation `cuarentaycuatro' on page \es@scroman {v} undefined on 
+input line 28.
+
+
+LaTeX Warning: Citation `cuarentaycuatro' on page \es@scroman {v} undefined on 
+input line 29.
+
+[5
+
+]
+
+LaTeX Warning: Citation `cuarentaycuatro' on page \es@scroman {vi} undefined on
+ input line 30.
+
+
+LaTeX Warning: Citation `cuarentaycuatro' on page \es@scroman {vi} undefined on
+ input line 31.
+
+
+LaTeX Warning: Citation `cuarentaycuatro' on page \es@scroman {vi} undefined on
+ input line 32.
+
+
+LaTeX Warning: Citation `cuarentaycuatro' on page \es@scroman {vi} undefined on
+ input line 33.
+
+
+LaTeX Warning: Citation `cuarentaycuatro' on page \es@scroman {vi} undefined on
+ input line 34.
+
+
+LaTeX Warning: Citation `cuarentaycuatro' on page \es@scroman {vi} undefined on
+ input line 35.
+
+
+LaTeX Warning: Citation `cuarentaycuatro' on page \es@scroman {vi} undefined on
+ input line 36.
+
+
+LaTeX Warning: Citation `cuarentaycuatro' on page \es@scroman {vi} undefined on
+ input line 37.
+
+
+LaTeX Warning: Citation `cuarentaycuatro' on page \es@scroman {vi} undefined on
+ input line 38.
+
 )
 \tf@lot=\write5
 \openout5 = `nombreTT-numeroDeTT.lot'.
 
- [5
-
-] (introduccion/introduccion.tex
+LaTeX Info: Redefining \. on input line 48.
+LaTeX Info: Redefining \% on input line 48.
+ [6] (introduccion/introduccion.tex
 Cap\'{\i }tulo 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -646,7 +772,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
 LaTeX Warning: Citation `cinco' on page 4 undefined on input line 19.
 
-<introduccion/imagenes/grafica1_1.png, id=55, 760.34062pt x 243.91125pt>
+<introduccion/imagenes/grafica1_1.png, id=59, 760.34062pt x 243.91125pt>
 File: introduccion/imagenes/grafica1_1.png Graphic file (type png)
 <use introduccion/imagenes/grafica1_1.png>
 Package pdftex.def Info: introduccion/imagenes/grafica1_1.png  used on input li
@@ -669,7 +795,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 LaTeX Info: Redefining \. on input line 31.
 LaTeX Info: Redefining \% on input line 31.
 [4]
-<introduccion/imagenes/grafica1_2.png, id=60, 585.68813pt x 322.20375pt>
+<introduccion/imagenes/grafica1_2.png, id=63, 585.68813pt x 322.20375pt>
 File: introduccion/imagenes/grafica1_2.png Graphic file (type png)
 <use introduccion/imagenes/grafica1_2.png>
 Package pdftex.def Info: introduccion/imagenes/grafica1_2.png  used on input li
@@ -812,7 +938,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-<introduccion/imagenes/grafica1_3.png, id=90, 433.62pt x 369.63094pt>
+<introduccion/imagenes/grafica1_3.png, id=93, 433.62pt x 369.63094pt>
 File: introduccion/imagenes/grafica1_3.png Graphic file (type png)
 <use introduccion/imagenes/grafica1_3.png>
 Package pdftex.def Info: introduccion/imagenes/grafica1_3.png  used on input li
@@ -835,7 +961,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--54
 LaTeX Info: Redefining \. on input line 54.
 LaTeX Info: Redefining \% on input line 54.
 [13]
-<introduccion/imagenes/grafica1_4.png, id=94, 441.90094pt x 464.4853pt>
+<introduccion/imagenes/grafica1_4.png, id=97, 441.90094pt x 464.4853pt>
 File: introduccion/imagenes/grafica1_4.png Graphic file (type png)
 <use introduccion/imagenes/grafica1_4.png>
 Package pdftex.def Info: introduccion/imagenes/grafica1_4.png  used on input li
@@ -960,7 +1086,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
-<introduccion/imagenes/termistores.png, id=110, 157.33781pt x 118.19156pt>
+<introduccion/imagenes/termistores.png, id=113, 157.33781pt x 118.19156pt>
 File: introduccion/imagenes/termistores.png Graphic file (type png)
 <use introduccion/imagenes/termistores.png>
 Package pdftex.def Info: introduccion/imagenes/termistores.png  used on input l
@@ -1128,7 +1254,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 213--214
 
  []
 
-<introduccion/imagenes/acelerometro_mecanico.png, id=121, 594.72188pt x 210.787
+<introduccion/imagenes/acelerometro_mecanico.png, id=124, 594.72188pt x 210.787
 5pt>
 File: introduccion/imagenes/acelerometro_mecanico.png Graphic file (type png)
 <use introduccion/imagenes/acelerometro_mecanico.png>
@@ -1161,7 +1287,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 229--230
 LaTeX Info: Redefining \. on input line 232.
 LaTeX Info: Redefining \% on input line 232.
 [22 <./introduccion/imagenes/acelerometro_mecanico.png>]
-<introduccion/imagenes/acelerometro_piezoelectrico.png, id=129, 115.632pt x 113
+<introduccion/imagenes/acelerometro_piezoelectrico.png, id=132, 115.632pt x 113
 .9895pt>
 File: introduccion/imagenes/acelerometro_piezoelectrico.png Graphic file (type 
 png)
@@ -1181,7 +1307,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 241--242
 LaTeX Info: Redefining \. on input line 244.
 LaTeX Info: Redefining \% on input line 244.
 [23 <./introduccion/imagenes/acelerometro_piezoelectrico.png>]
-<introduccion/imagenes/acelerometro_piezoresistivo.png, id=134, 152.7525pt x 11
+<introduccion/imagenes/acelerometro_piezoresistivo.png, id=137, 152.7525pt x 11
 9.9025pt>
 File: introduccion/imagenes/acelerometro_piezoresistivo.png Graphic file (type 
 png)
@@ -1203,7 +1329,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 254--255
 
  []
 
-<introduccion/imagenes/acelerometro_capacitivo.png, id=135, 181.989pt x 178.047
+<introduccion/imagenes/acelerometro_capacitivo.png, id=138, 181.989pt x 178.047
 pt>
 File: introduccion/imagenes/acelerometro_capacitivo.png Graphic file (type png)
 
@@ -1225,7 +1351,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 263--264
 LaTeX Info: Redefining \. on input line 266.
 LaTeX Info: Redefining \% on input line 266.
 [24 <./introduccion/imagenes/acelerometro_piezoresistivo.png>]
-<introduccion/imagenes/acelerometro_termico.png, id=140, 515.67656pt x 295.8553
+<introduccion/imagenes/acelerometro_termico.png, id=143, 515.67656pt x 295.8553
 2pt>
 File: introduccion/imagenes/acelerometro_termico.png Graphic file (type png)
 <use introduccion/imagenes/acelerometro_termico.png>
@@ -1252,7 +1378,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 276--277
 LaTeX Info: Redefining \. on input line 277.
 LaTeX Info: Redefining \% on input line 277.
 [25 <./introduccion/imagenes/acelerometro_capacitivo.png>]
-<introduccion/imagenes/acelerometro_MEMS.png, id=145, 106.434pt x 75.8835pt>
+<introduccion/imagenes/acelerometro_MEMS.png, id=148, 106.434pt x 75.8835pt>
 File: introduccion/imagenes/acelerometro_MEMS.png Graphic file (type png)
 <use introduccion/imagenes/acelerometro_MEMS.png>
 Package pdftex.def Info: introduccion/imagenes/acelerometro_MEMS.png  used on i
@@ -1396,7 +1522,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 345--346
 
 LaTeX Warning: Citation `veintinueve' on page 30 undefined on input line 347.
 
-<introduccion/imagenes/microcontrolador.png, id=159, 258.21469pt x 115.93312pt>
+<introduccion/imagenes/microcontrolador.png, id=162, 258.21469pt x 115.93312pt>
 
 File: introduccion/imagenes/microcontrolador.png Graphic file (type png)
 <use introduccion/imagenes/microcontrolador.png>
@@ -1415,7 +1541,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Info: Redefining \. on input line 357.
 LaTeX Info: Redefining \% on input line 357.
 [30]
-<introduccion/imagenes/microprocesador.png, id=163, 292.09125pt x 291.0875pt>
+<introduccion/imagenes/microprocesador.png, id=166, 292.09125pt x 291.0875pt>
 File: introduccion/imagenes/microprocesador.png Graphic file (type png)
 <use introduccion/imagenes/microprocesador.png>
 Package pdftex.def Info: introduccion/imagenes/microprocesador.png  used on inp
@@ -1459,7 +1585,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 388--389
 
  []
 
-<introduccion/imagenes/arquitectura_von.png, id=167, 150.5625pt x 149.05687pt>
+<introduccion/imagenes/arquitectura_von.png, id=170, 150.5625pt x 149.05687pt>
 File: introduccion/imagenes/arquitectura_von.png Graphic file (type png)
 <use introduccion/imagenes/arquitectura_von.png>
 Package pdftex.def Info: introduccion/imagenes/arquitectura_von.png  used on in
@@ -1481,7 +1607,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 401--402
 
  []
 
-<introduccion/imagenes/arquitectura_harvard.png, id=168, 301.125pt x 195.73125p
+<introduccion/imagenes/arquitectura_harvard.png, id=171, 301.125pt x 195.73125p
 t>
 File: introduccion/imagenes/arquitectura_harvard.png Graphic file (type png)
 <use introduccion/imagenes/arquitectura_harvard.png>
@@ -1511,7 +1637,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 416--417
 
  []
 
-<introduccion/imagenes/juego_instrucciones.png, id=173, 169.38281pt x 214.55156
+<introduccion/imagenes/juego_instrucciones.png, id=176, 169.38281pt x 214.55156
 pt>
 File: introduccion/imagenes/juego_instrucciones.png Graphic file (type png)
 <use introduccion/imagenes/juego_instrucciones.png>
@@ -1549,7 +1675,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 433--434
 
  []
 
-<introduccion/imagenes/poblacion.png, id=179, 523.20468pt x 245.41687pt>
+<introduccion/imagenes/poblacion.png, id=183, 523.20468pt x 245.41687pt>
 File: introduccion/imagenes/poblacion.png Graphic file (type png)
 <use introduccion/imagenes/poblacion.png>
 Package pdftex.def Info: introduccion/imagenes/poblacion.png  used on input lin
@@ -1613,7 +1739,7 @@ LaTeX Warning: Citation `treintaycuatro' on page 35 undefined on input line 6.
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 [35 <./introduccion/imagenes/poblacion.png>]
-<introduccion/imagenes/salveo.png, id=187, 588.69937pt x 374.14781pt>
+<introduccion/imagenes/salveo.png, id=190, 588.69937pt x 374.14781pt>
 File: introduccion/imagenes/salveo.png Graphic file (type png)
 <use introduccion/imagenes/salveo.png>
 Package pdftex.def Info: introduccion/imagenes/salveo.png  used on input line 1
@@ -1633,7 +1759,7 @@ Overfull \hbox (3.22333pt too wide) in paragraph at lines 15--16
 :
  []
 
-<introduccion/imagenes/video_vigilancia.png, id=188, 611.28375pt x 344.78813pt>
+<introduccion/imagenes/video_vigilancia.png, id=191, 611.28375pt x 344.78813pt>
 
 File: introduccion/imagenes/video_vigilancia.png Graphic file (type png)
 <use introduccion/imagenes/video_vigilancia.png>
@@ -1652,7 +1778,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
 [36 <./introduccion/imagenes/salveo.png>]
-<introduccion/imagenes/espe.png, id=193, 320.69812pt x 264.23718pt>
+<introduccion/imagenes/espe.png, id=196, 320.69812pt x 264.23718pt>
 File: introduccion/imagenes/espe.png Graphic file (type png)
 <use introduccion/imagenes/espe.png>
 Package pdftex.def Info: introduccion/imagenes/espe.png  used on input line 30.
@@ -1672,7 +1798,7 @@ LaTeX Info: Redefining \. on input line 39.
 LaTeX Info: Redefining \% on input line 39.
 [37 <./introduccion/imagenes/video_vigilancia.png> <./introduccion/imagenes/esp
 e.png>]
-<introduccion/imagenes/red_inalambrica.png, id=199, 521.69907pt x 283.81032pt>
+<introduccion/imagenes/red_inalambrica.png, id=202, 521.69907pt x 283.81032pt>
 File: introduccion/imagenes/red_inalambrica.png Graphic file (type png)
 <use introduccion/imagenes/red_inalambrica.png>
 Package pdftex.def Info: introduccion/imagenes/red_inalambrica.png  used on inp
@@ -1806,7 +1932,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-<analisis/imagenes/modelo_prototipos.png, id=212, 320.69812pt x 348.55219pt>
+<analisis/imagenes/modelo_prototipos.png, id=215, 320.69812pt x 348.55219pt>
 File: analisis/imagenes/modelo_prototipos.png Graphic file (type png)
 <use analisis/imagenes/modelo_prototipos.png>
 Package pdftex.def Info: analisis/imagenes/modelo_prototipos.png  used on input
@@ -1837,7 +1963,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-<analisis/imagenes/diagrama_prototipo.png, id=219, 978.65625pt x 514.92375pt>
+<analisis/imagenes/diagrama_prototipo.png, id=222, 978.65625pt x 514.92375pt>
 File: analisis/imagenes/diagrama_prototipo.png Graphic file (type png)
 <use analisis/imagenes/diagrama_prototipo.png>
 Package pdftex.def Info: analisis/imagenes/diagrama_prototipo.png  used on inpu
@@ -2443,47 +2569,1574 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--97
  []
 
 
-Overfull \hbox (3.25873pt too wide) in paragraph at lines 102--102
+Overfull \hbox (3.25873pt too wide) in paragraph at lines 104--104
 []|\OT1/cmr/m/n/10.95 Despreciable| 
  []
 
 
-Overfull \hbox (4.71875pt too wide) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+[]|\OT1/cmr/m/n/10.95 Catastrofi-
+ []
+
+
+Overfull \hbox (4.71875pt too wide) in paragraph at lines 106--106
 []|\OT1/cmr/m/n/10.95 Probabilidad|  
  []
 
 
-Overfull \hbox (9.68173pt too wide) in paragraph at lines 106--106
+Overfull \hbox (9.68173pt too wide) in paragraph at lines 108--108
 []|\OT1/cmr/m/n/10.95 R2,R9,R13,| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
-[]|\OT1/cmr/m/n/10.95 R1,
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
+[]|\OT1/cmr/m/n/10.95 R1, R3,
  []
 
 
-Overfull \hbox (1.4251pt too wide) in paragraph at lines 106--106
-\OT1/cmr/m/n/10.95 R13,R14,| 
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
+\OT1/cmr/m/n/10.95 R10,
  []
 
 
-Overfull \hbox (19.24474pt too wide) in paragraph at lines 99--115
+Overfull \hbox (22.41983pt too wide) in paragraph at lines 101--117
 [][] 
  []
 
 
 LaTeX Warning: Citation `cuarentaycuatro' on page 62 undefined on input line 11
+7.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+
+ []
+
+LaTeX Info: Redefining \. on input line 121.
+LaTeX Info: Redefining \% on input line 121.
+[62]
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 147--147
+[]$[]$| 
+ []
+
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 157--157
+[]$[]$| 
+ []
+
+
+Overfull \hbox (11.65494pt too wide) in paragraph at lines 129--162
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `cuarentaycuatro' on page 63 undefined on input line 16
+2.
+
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 186--186
+[]$[]$| 
+ []
+
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 195--195
+[]$[]$| 
+ []
+
+
+Overfull \hbox (11.65494pt too wide) in paragraph at lines 168--200
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `cuarentaycuatro' on page 63 undefined on input line 20
+0.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 224--224
+[]$[]$| 
+ []
+
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 233--233
+[]$[]$| 
+ []
+
+
+Overfull \hbox (11.65494pt too wide) in paragraph at lines 206--238
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `cuarentaycuatro' on page 63 undefined on input line 23
+8.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (36.98868pt too wide) in paragraph at lines 262--262
+[]$[]$| 
+ []
+
+
+Overfull \hbox (36.98868pt too wide) in paragraph at lines 272--272
+[]$[]$| 
+ []
+
+
+Overfull \hbox (21.69246pt too wide) in paragraph at lines 244--277
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `cuarentaycuatro' on page 63 undefined on input line 27
+7.
+
+
+Overfull \hbox (36.98868pt too wide) in paragraph at lines 301--301
+[]$[]$| 
+ []
+
+
+Overfull \hbox (36.98868pt too wide) in paragraph at lines 311--311
+[]$[]$| 
+ []
+
+
+Overfull \hbox (36.65747pt too wide) in paragraph at lines 283--316
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `cuarentaycuatro' on page 63 undefined on input line 31
+6.
+
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 340--340
+[]$[]$| 
+ []
+
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 350--350
+[]$[]$| 
+ []
+
+
+Overfull \hbox (11.65494pt too wide) in paragraph at lines 322--355
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `cuarentaycuatro' on page 63 undefined on input line 35
+5.
+
+
+Overfull \hbox (36.98868pt too wide) in paragraph at lines 379--379
+[]$[]$| 
+ []
+
+
+Overfull \hbox (36.98868pt too wide) in paragraph at lines 388--388
+[]$[]$| 
+ []
+
+
+Overfull \hbox (36.65747pt too wide) in paragraph at lines 361--393
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `cuarentaycuatro' on page 63 undefined on input line 39
+3.
+
+
+Overfull \hbox (36.98868pt too wide) in paragraph at lines 417--417
+[]$[]$| 
+ []
+
+
+Overfull \hbox (36.98868pt too wide) in paragraph at lines 426--426
+[]$[]$| 
+ []
+
+
+Overfull \hbox (36.65747pt too wide) in paragraph at lines 399--431
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `cuarentaycuatro' on page 63 undefined on input line 43
+1.
+
+
+Overfull \hbox (36.98868pt too wide) in paragraph at lines 455--455
+[]$[]$| 
+ []
+
+
+Overfull \hbox (36.98868pt too wide) in paragraph at lines 464--464
+[]$[]$| 
+ []
+
+
+Overfull \hbox (36.65747pt too wide) in paragraph at lines 437--469
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `cuarentaycuatro' on page 63 undefined on input line 46
+9.
+
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 493--493
+[]$[]$| 
+ []
+
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 502--502
+[]$[]$| 
+ []
+
+
+Overfull \hbox (17.95114pt too wide) in paragraph at lines 475--507
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `cuarentaycuatro' on page 63 undefined on input line 50
+7.
+
+
+Overfull \hbox (36.98868pt too wide) in paragraph at lines 531--531
+[]$[]$| 
+ []
+
+
+Overfull \hbox (36.98868pt too wide) in paragraph at lines 541--541
+[]$[]$| 
+ []
+
+
+Overfull \hbox (42.95367pt too wide) in paragraph at lines 513--546
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `cuarentaycuatro' on page 63 undefined on input line 54
+6.
+
+
+Overfull \hbox (36.98868pt too wide) in paragraph at lines 570--570
+[]$[]$| 
+ []
+
+
+Overfull \hbox (36.98868pt too wide) in paragraph at lines 580--580
+[]$[]$| 
+ []
+
+
+Overfull \hbox (45.23491pt too wide) in paragraph at lines 552--585
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `cuarentaycuatro' on page 63 undefined on input line 58
+5.
+
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 609--609
+[]$[]$| 
+ []
+
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 619--619
+[]$[]$| 
+ []
+
+
+Overfull \hbox (17.95114pt too wide) in paragraph at lines 591--624
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `cuarentaycuatro' on page 63 undefined on input line 62
+4.
+
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 648--648
+[]$[]$| 
+ []
+
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 658--658
+[]$[]$| 
+ []
+
+
+Overfull \hbox (17.95114pt too wide) in paragraph at lines 630--663
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `cuarentaycuatro' on page 63 undefined on input line 66
+3.
+
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 687--687
+[]$[]$| 
+ []
+
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 696--696
+[]$[]$| 
+ []
+
+
+Overfull \hbox (17.95114pt too wide) in paragraph at lines 669--701
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `cuarentaycuatro' on page 63 undefined on input line 70
+1.
+
+LaTeX Info: Redefining \. on input line 704.
+LaTeX Info: Redefining \% on input line 704.
+[63]
+LaTeX Info: Redefining \. on input line 704.
+LaTeX Info: Redefining \% on input line 704.
+ [64]
+LaTeX Info: Redefining \. on input line 704.
+LaTeX Info: Redefining \% on input line 704.
+ [65]
+LaTeX Info: Redefining \. on input line 704.
+LaTeX Info: Redefining \% on input line 704.
+ [66]
+LaTeX Info: Redefining \. on input line 704.
+LaTeX Info: Redefining \% on input line 704.
+ [67]
+LaTeX Info: Redefining \. on input line 704.
+LaTeX Info: Redefining \% on input line 704.
+ [68]
+LaTeX Info: Redefining \. on input line 704.
+LaTeX Info: Redefining \% on input line 704.
+ [69]
+LaTeX Info: Redefining \. on input line 704.
+LaTeX Info: Redefining \% on input line 704.
+ [70]
+LaTeX Info: Redefining \. on input line 704.
+LaTeX Info: Redefining \% on input line 704.
+ [71]
+LaTeX Info: Redefining \. on input line 704.
+LaTeX Info: Redefining \% on input line 704.
+ [72]
+LaTeX Info: Redefining \. on input line 704.
+LaTeX Info: Redefining \% on input line 704.
+ [73]
+LaTeX Info: Redefining \. on input line 704.
+LaTeX Info: Redefining \% on input line 704.
+ [74]
+LaTeX Info: Redefining \. on input line 704.
+LaTeX Info: Redefining \% on input line 704.
+ [75]
+LaTeX Info: Redefining \. on input line 704.
+LaTeX Info: Redefining \% on input line 704.
+ [76])
+(analisis/secciones/tema7.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+LaTeX Info: Redefining \. on input line 26.
+LaTeX Info: Redefining \% on input line 26.
+[77
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+[]|\OT1/cmr/m/n/10.95 Campo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+[]|\OT1/cmr/m/n/10.95 Amphenol
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+[]\OT1/cmr/m/n/10.95 En agua
+ []
+
+
+Overfull \hbox (5.56432pt too wide) in paragraph at lines 37--37
+[]|\OT1/cmr/m/n/10.95 Resistiva| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+[]|\OT1/cmr/m/n/10.95 Amphenol
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+[]\OT1/cmr/m/n/10.95 En agua
+ []
+
+
+Overfull \hbox (5.56432pt too wide) in paragraph at lines 39--39
+[]|\OT1/cmr/m/n/10.95 Resistiva| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+[]|\OT1/cmr/m/n/10.95 Amphenol
+ []
+
+
+Overfull \hbox (5.56432pt too wide) in paragraph at lines 41--41
+[]|\OT1/cmr/m/n/10.95 Resistiva| 
+ []
+
+
+Overfull \hbox (7.78471pt too wide) in paragraph at lines 43--43
+[]|\OT1/cmr/m/n/10.95 Corriente| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]|\OT1/cmr/m/n/10.95 -55$[]$C a
+ []
+
+
+Overfull \hbox (1.25378pt too wide) in paragraph at lines 47--47
+[]|\OT1/cmr/m/n/10.95 MLX90614| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+[]|\OT1/cmr/m/n/10.95 -70$[]$C a
+ []
+
+
+Overfull \hbox (7.86383pt too wide) in paragraph at lines 33--50
+[][] 
+ []
+
+LaTeX Info: Redefining \. on input line 55.
+LaTeX Info: Redefining \% on input line 55.
+[78]
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+
+ []
+
+
+LaTeX Warning: Citation `cuarentaycinco' on page 79 undefined on input line 61.
+
+
+<analisis/imagenes/sensor_temperatura.png, id=343, 39.14626pt x 71.51718pt>
+File: analisis/imagenes/sensor_temperatura.png Graphic file (type png)
+<use analisis/imagenes/sensor_temperatura.png>
+Package pdftex.def Info: analisis/imagenes/sensor_temperatura.png  used on inpu
+t line 65.
+(pdftex.def)             Requested size: 39.14615pt x 71.517pt.
+
+LaTeX Warning: Citation `cuarentaycinco' on page 79 undefined on input line 66.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+
+ []
+
+LaTeX Info: Redefining \. on input line 74.
+LaTeX Info: Redefining \% on input line 74.
+[79 <./analisis/imagenes/sensor_temperatura.png>]
+<analisis/imagenes/esquema_termopar.png, id=347, 263.48438pt x 77.53969pt>
+File: analisis/imagenes/esquema_termopar.png Graphic file (type png)
+<use analisis/imagenes/esquema_termopar.png>
+Package pdftex.def Info: analisis/imagenes/esquema_termopar.png  used on input 
+line 79.
+(pdftex.def)             Requested size: 263.48372pt x 77.53947pt.
+
+
+LaTeX Warning: Citation `cuarentayseis' on page 80 undefined on input line 80.
+
+
+LaTeX Warning: Citation `cuarentayseis' on page 80 undefined on input line 80.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+ []
+
+LaTeX Info: Redefining \. on input line 105.
+LaTeX Info: Redefining \% on input line 105.
+[80 <./analisis/imagenes/esquema_termopar.png>]
+
+LaTeX Warning: Citation `cuarentayseis' on page 81 undefined on input line 106.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+
+ []
+
+
+LaTeX Warning: Citation `cuarentaysiete' on page 81 undefined on input line 125
+.
+
+<analisis/imagenes/factor.png, id=351, 264.99pt x 198.7425pt>
+File: analisis/imagenes/factor.png Graphic file (type png)
+<use analisis/imagenes/factor.png>
+Package pdftex.def Info: analisis/imagenes/factor.png  used on input line 129.
+(pdftex.def)             Requested size: 264.98935pt x 198.742pt.
+
+LaTeX Warning: Citation `cuarentaysiete' on page 81 undefined on input line 130
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+
+ []
+
+LaTeX Info: Redefining \. on input line 135.
+LaTeX Info: Redefining \% on input line 135.
+[81]
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+
+ []
+
+
+LaTeX Warning: Citation `cuarentaycinco' on page 82 undefined on input line 140
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+
+ []
+
+LaTeX Info: Redefining \. on input line 143.
+LaTeX Info: Redefining \% on input line 143.
+[82 <./analisis/imagenes/factor.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+
+ []
+
+LaTeX Info: Redefining \. on input line 180.
+LaTeX Info: Redefining \% on input line 180.
+[83]
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
+
+ []
+
+
+LaTeX Warning: Citation `cuarentaycinco' on page 84 undefined on input line 202
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+
+ []
+
+LaTeX Info: Redefining \. on input line 209.
+LaTeX Info: Redefining \% on input line 209.
+[84]
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
+
+ []
+
+
+LaTeX Warning: Citation `cuarentayocho' on page 85 undefined on input line 220.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
+
+ []
+
+<analisis/imagenes/principio_filtro.png, id=365, 237.88875pt x 115.93312pt>
+File: analisis/imagenes/principio_filtro.png Graphic file (type png)
+<use analisis/imagenes/principio_filtro.png>
+Package pdftex.def Info: analisis/imagenes/principio_filtro.png  used on input 
+line 224.
+(pdftex.def)             Requested size: 237.88815pt x 115.93283pt.
+
+LaTeX Warning: Citation `cuarentayocho' on page 85 undefined on input line 225.
+
+
+<analisis/imagenes/filtro_iir.png, id=366, 233.37187pt x 119.69719pt>
+File: analisis/imagenes/filtro_iir.png Graphic file (type png)
+<use analisis/imagenes/filtro_iir.png>
+Package pdftex.def Info: analisis/imagenes/filtro_iir.png  used on input line 2
+33.
+(pdftex.def)             Requested size: 233.37129pt x 119.69688pt.
+
+LaTeX Warning: Citation `cuarentayocho' on page 85 undefined on input line 234.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
+
+ []
+
+LaTeX Info: Redefining \. on input line 239.
+LaTeX Info: Redefining \% on input line 239.
+[85 <./analisis/imagenes/principio_filtro.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
+
+ []
+
+
+Overfull \hbox (17.43141pt too wide) detected at line 246
+\OML/cmm/m/it/12 y\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 n\OT1/cmr/m/n/12 ]  =  \OML
+/cmm/m/it/12 a\OT1/cmr/m/n/12 0 \OMS/cmsy/m/n/12  \OML/cmm/m/it/12 x\OT1/cmr/m
+/n/12 [\OML/cmm/m/it/12 n\OT1/cmr/m/n/12 ]  +  \OML/cmm/m/it/12 a\OT1/cmr/m/n/1
+2 1 \OMS/cmsy/m/n/12  \OML/cmm/m/it/12 x\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 n \O
+MS/cmsy/m/n/12   \OT1/cmr/m/n/12 1]  +  \OML/cmm/m/it/12 a\OT1/cmr/m/n/12 2 \OM
+S/cmsy/m/n/12  \OML/cmm/m/it/12 x\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 n \OMS/cmsy
+/m/n/12   \OT1/cmr/m/n/12 2]  + [] +  \OML/cmm/m/it/12 aN \OMS/cmsy/m/n/12  \O
+ML/cmm/m/it/12 x\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 n \OMS/cmsy/m/n/12   \OML/cmm
+/m/it/12 N\OT1/cmr/m/n/12 ]
+ []
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 248.
+
+
+LaTeX Warning: Citation `cuarentayocho' on page 86 undefined on input line 248.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
+
+ []
+
+LaTeX Info: Redefining \. on input line 264.
+LaTeX Info: Redefining \% on input line 264.
+[86 <./analisis/imagenes/filtro_iir.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
+
+ []
+
+
+Overfull \hbox (1.71927pt too wide) detected at line 270
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+
+ []
+
+
+LaTeX Warning: Citation `cuarentayocho' on page 87 undefined on input line 276.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
+
+ []
+
+LaTeX Info: Redefining \. on input line 288.
+LaTeX Info: Redefining \% on input line 288.
+[87]
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
+
+ []
+
+
+LaTeX Warning: Citation `cuarentaycinco' on page 88 undefined on input line 304
+.
+
+) (analisis/secciones/tema8.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [88]
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+LaTeX Warning: Citation `cuarentaynueve' on page 89 undefined on input line 7.
+
+<analisis/imagenes/etapas_caida.png, id=380, 787.44188pt x 564.60938pt>
+File: analisis/imagenes/etapas_caida.png Graphic file (type png)
+<use analisis/imagenes/etapas_caida.png>
+Package pdftex.def Info: analisis/imagenes/etapas_caida.png  used on input line
+ 11.
+(pdftex.def)             Requested size: 275.60878pt x 197.61623pt.
+
+LaTeX Warning: Citation `cuarentaynueve' on page 89 undefined on input line 12.
+
+
+
+LaTeX Warning: Citation `cuarentaynueve' on page 89 undefined on input line 12.
+
+
+LaTeX Info: Redefining \. on input line 18.
+LaTeX Info: Redefining \% on input line 18.
+[89 <./analisis/imagenes/etapas_caida.png>]
+<analisis/imagenes/aceleracion.png, id=384, 718.18312pt x 496.85625pt>
+File: analisis/imagenes/aceleracion.png Graphic file (type png)
+<use analisis/imagenes/aceleracion.png>
+Package pdftex.def Info: analisis/imagenes/aceleracion.png  used on input line 
+29.
+(pdftex.def)             Requested size: 251.36786pt x 173.90228pt.
+
+
+LaTeX Warning: Citation `cincuenta' on page 90 undefined on input line 30.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Info: Redefining \. on input line 38.
+LaTeX Info: Redefining \% on input line 38.
+[90]
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 45.
+
+
+LaTeX Warning: Citation `cincuenta' on page 91 undefined on input line 45.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+
+ []
+
+LaTeX Info: Redefining \. on input line 50.
+LaTeX Info: Redefining \% on input line 50.
+[91 <./analisis/imagenes/aceleracion.png>]
+Overfull \hbox (6.83064pt too wide) in paragraph at lines 57--57
+[]|\OT1/cmr/m/n/10.95 Modelo| 
+ []
+
+
+Overfull \hbox (21.9173pt too wide) in paragraph at lines 59--59
+[]|\OT1/cmr/m/n/10.95 Fabricante| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]|\OT1/cmr/m/n/10.95 Analog De-vi-
+ []
+
+
+Overfull \hbox (20.84824pt too wide) in paragraph at lines 59--59
+[]|\OT1/cmr/m/n/10.95 STMicroelectronics| 
+ []
+
+
+Overfull \hbox (0.7473pt too wide) in paragraph at lines 61--61
+[]|\OT1/cmr/m/n/10.95 Salida| 
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 61--61
+[]|\OT1/cmr/m/n/10.95 Digital de 12
+ []
+
+
+Overfull \hbox (8.38187pt too wide) in paragraph at lines 63--63
+[]|\OT1/cmr/m/n/10.95 Interfaz
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+\OT1/cmr/m/n/10.95 mu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+\OT1/cmr/m/n/10.95 ni-ca-
+ []
+
+
+Overfull \hbox (2.11604pt too wide) in paragraph at lines 65--65
+[]|\OT1/cmr/m/n/10.95 Rango
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+\OT1/cmr/m/n/10.95 de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+\OT1/cmr/m/n/10.95 me-di-
+ []
+
+
+! Package inputenc Error: Unicode character ± (U+B1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 		Rango de medición & ±
+                              2g, ±4g, ±8g, ±16g & ±16 & +/- 8g & +/- 24...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ± (U+B1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 		Rango de medición & ±2g, ±
+                                    4g, ±8g, ±16g & ±16 & +/- 8g & +/- 24...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ± (U+B1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 		Rango de medición & ±2g, ±4g, ±
+                                          8g, ±16g & ±16 & +/- 8g & +/- 24...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ± (U+B1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 		Rango de medición & ±2g, ±4g, ±8g, ±
+                                                16g & ±16 & +/- 8g & +/- 24...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ± (U+B1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 ...e medición & ±2g, ±4g, ±8g, ±16g & ±
+                                                  16 & +/- 8g & +/- 24g \\ \...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (21.94774pt too wide) in paragraph at lines 67--67
+[]|\OT1/cmr/m/n/10.95 Dimension| 
+ []
+
+
+Overfull \hbox (14.9823pt too wide) in paragraph at lines 71--71
+[]|\OT1/cmr/m/n/10.95 Precision| 
+ []
+
+
+Overfull \hbox (34.814pt too wide) in paragraph at lines 73--73
+[]|\OT1/cmr/m/n/10.95 Alimentacion| 
+ []
+
+
+Overfull \hbox (16.32063pt too wide) in paragraph at lines 75--75
+[]|\OT1/cmr/m/n/10.95 Corriente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+\OT1/cmr/m/n/10.95 Maxi-
+ []
+
+
+Overfull \hbox (31.28566pt too wide) in paragraph at lines 77--77
+[]|\OT1/cmr/m/n/10.95 Caractersti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+\OT1/cmr/m/n/10.95 cas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+\OT1/cmr/m/n/10.95 adi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+\OT1/cmr/m/n/10.95 cio-
+ []
+
+
+Overfull \hbox (22.22147pt too wide) in paragraph at lines 79--79
+[]|\OT1/cmr/m/n/10.95 Frecuencia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10.95 de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10.95 mues-
+ []
+
+
+Overfull \hbox (2.11604pt too wide) in paragraph at lines 81--81
+[]|\OT1/cmr/m/n/10.95 Rango
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+\OT1/cmr/m/n/10.95 de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+\OT1/cmr/m/n/10.95 tem-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+\OT1/cmr/m/n/10.95 pe-ra-
+ []
+
+
+Overfull \hbox (26.32774pt too wide) in paragraph at lines 83--83
+[]|\OT1/cmr/m/n/10.95 Calibracion| 
+ []
+
+
+Overfull \hbox (11.39313pt too wide) in paragraph at lines 85--85
+[]|\OT1/cmr/m/n/10.95 Montaje
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+\OT1/cmr/m/n/10.95 su-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+\OT1/cmr/m/n/10.95 per-fi-
+ []
+
+
+Overfull \hbox (86.11214pt too wide) in paragraph at lines 53--90
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 94.80382pt on input line 91.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[]|\OT1/cmr/m/n/10.95 Campo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
+[]|\OT1/cmr/m/n/10.95 Amphenol
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
+[]\OT1/cmr/m/n/10.95 En agua
+ []
+
+
+Overfull \hbox (5.56432pt too wide) in paragraph at lines 108--108
+[]|\OT1/cmr/m/n/10.95 Resistiva| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
+[]|\OT1/cmr/m/n/10.95 Amphenol
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
+[]\OT1/cmr/m/n/10.95 En agua
+ []
+
+
+Overfull \hbox (5.56432pt too wide) in paragraph at lines 110--110
+[]|\OT1/cmr/m/n/10.95 Resistiva| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+[]|\OT1/cmr/m/n/10.95 Amphenol
+ []
+
+
+Overfull \hbox (5.56432pt too wide) in paragraph at lines 112--112
+[]|\OT1/cmr/m/n/10.95 Resistiva| 
+ []
+
+
+Overfull \hbox (7.78471pt too wide) in paragraph at lines 114--114
+[]|\OT1/cmr/m/n/10.95 Corriente| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+[]|\OT1/cmr/m/n/10.95 -55$[]$C a
+ []
+
+
+Overfull \hbox (1.25378pt too wide) in paragraph at lines 118--118
+[]|\OT1/cmr/m/n/10.95 MLX90614| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+[]|\OT1/cmr/m/n/10.95 -70$[]$C a
+ []
+
+
+Overfull \hbox (7.86383pt too wide) in paragraph at lines 104--121
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+LaTeX Info: Redefining \. on input line 131.
+LaTeX Info: Redefining \% on input line 131.
+[92]
+
+LaTeX Warning: Citation `cuarentaycinco' on page 93 undefined on input line 132
+.
+
+File: analisis/imagenes/sensor_temperatura.png Graphic file (type png)
+<use analisis/imagenes/sensor_temperatura.png>
+Package pdftex.def Info: analisis/imagenes/sensor_temperatura.png  used on inpu
+t line 136.
+(pdftex.def)             Requested size: 39.14615pt x 71.517pt.
+
+LaTeX Warning: Citation `cuarentaycinco' on page 93 undefined on input line 137
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+
+ []
+
+File: analisis/imagenes/esquema_termopar.png Graphic file (type png)
+<use analisis/imagenes/esquema_termopar.png>
+Package pdftex.def Info: analisis/imagenes/esquema_termopar.png  used on input 
+line 150.
+(pdftex.def)             Requested size: 263.48372pt x 77.53947pt.
+
+LaTeX Warning: Citation `cuarentayseis' on page 93 undefined on input line 151.
+
+
+
+LaTeX Warning: Citation `cuarentayseis' on page 93 undefined on input line 151.
+
+
+LaTeX Info: Redefining \. on input line 153.
+LaTeX Info: Redefining \% on input line 153.
+[93]
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+
+ []
+
+
+LaTeX Warning: Citation `cuarentayseis' on page 94 undefined on input line 177.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+ []
+
+LaTeX Info: Redefining \. on input line 178.
+LaTeX Info: Redefining \% on input line 178.
+[94]
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+
+ []
+
+
+LaTeX Warning: Citation `cuarentaysiete' on page 95 undefined on input line 196
+.
+
+File: analisis/imagenes/factor.png Graphic file (type png)
+<use analisis/imagenes/factor.png>
+Package pdftex.def Info: analisis/imagenes/factor.png  used on input line 200.
+(pdftex.def)             Requested size: 264.98935pt x 198.742pt.
+
+LaTeX Warning: Citation `cuarentaysiete' on page 95 undefined on input line 201
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
+
+ []
+
+LaTeX Info: Redefining \. on input line 209.
+LaTeX Info: Redefining \% on input line 209.
+[95]
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+
+ []
+
+
+LaTeX Warning: Citation `cuarentaycinco' on page 96 undefined on input line 211
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
+
+ []
+
+LaTeX Info: Redefining \. on input line 219.
+LaTeX Info: Redefining \% on input line 219.
+[96]
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
+
+ []
+
+LaTeX Info: Redefining \. on input line 261.
+LaTeX Info: Redefining \% on input line 261.
+[97]
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+
+ []
+
+
+LaTeX Warning: Citation `cuarentaycinco' on page 98 undefined on input line 273
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
+
+ []
+
+LaTeX Info: Redefining \. on input line 284.
+LaTeX Info: Redefining \% on input line 284.
+[98]
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
+
+ []
+
+
+LaTeX Warning: Citation `cuarentayocho' on page 99 undefined on input line 291.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
+
+ []
+
+File: analisis/imagenes/principio_filtro.png Graphic file (type png)
+<use analisis/imagenes/principio_filtro.png>
+Package pdftex.def Info: analisis/imagenes/principio_filtro.png  used on input 
+line 295.
+(pdftex.def)             Requested size: 237.88815pt x 115.93283pt.
+
+LaTeX Warning: Citation `cuarentayocho' on page 99 undefined on input line 296.
+
+
+File: analisis/imagenes/filtro_iir.png Graphic file (type png)
+<use analisis/imagenes/filtro_iir.png>
+Package pdftex.def Info: analisis/imagenes/filtro_iir.png  used on input line 3
+04.
+(pdftex.def)             Requested size: 233.37129pt x 119.69688pt.
+
+LaTeX Warning: Citation `cuarentayocho' on page 99 undefined on input line 305.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+
+ []
+
+LaTeX Info: Redefining \. on input line 315.
+LaTeX Info: Redefining \% on input line 315.
+[99]
+Overfull \hbox (17.43141pt too wide) detected at line 317
+\OML/cmm/m/it/12 y\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 n\OT1/cmr/m/n/12 ]  =  \OML
+/cmm/m/it/12 a\OT1/cmr/m/n/12 0 \OMS/cmsy/m/n/12  \OML/cmm/m/it/12 x\OT1/cmr/m
+/n/12 [\OML/cmm/m/it/12 n\OT1/cmr/m/n/12 ]  +  \OML/cmm/m/it/12 a\OT1/cmr/m/n/1
+2 1 \OMS/cmsy/m/n/12  \OML/cmm/m/it/12 x\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 n \O
+MS/cmsy/m/n/12   \OT1/cmr/m/n/12 1]  +  \OML/cmm/m/it/12 a\OT1/cmr/m/n/12 2 \OM
+S/cmsy/m/n/12  \OML/cmm/m/it/12 x\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 n \OMS/cmsy
+/m/n/12   \OT1/cmr/m/n/12 2]  + [] +  \OML/cmm/m/it/12 aN \OMS/cmsy/m/n/12  \O
+ML/cmm/m/it/12 x\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 n \OMS/cmsy/m/n/12   \OML/cmm
+/m/it/12 N\OT1/cmr/m/n/12 ]
+ []
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 319.
+
+
+LaTeX Warning: Citation `cuarentayocho' on page 100 undefined on input line 319
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--328
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--336
+
+ []
+
+LaTeX Info: Redefining \. on input line 336.
+LaTeX Info: Redefining \% on input line 336.
+[100]
+Overfull \hbox (1.71927pt too wide) detected at line 341
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
+
+ []
+
+
+LaTeX Warning: Citation `cuarentayocho' on page 101 undefined on input line 347
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--352
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
+
+ []
+
+LaTeX Info: Redefining \. on input line 363.
+LaTeX Info: Redefining \% on input line 363.
+[101]
+Underfull \hbox (badness 10000) in paragraph at lines 364--365
+
+ []
+
+
+LaTeX Warning: Citation `cuarentaycinco' on page 102 undefined on input line 37
 5.
 
 )
-LaTeX Info: Redefining \. on input line 69.
-LaTeX Info: Redefining \% on input line 69.
- [62] (nombreTT-numeroDeTT.aux (portada.aux)
+LaTeX Info: Redefining \. on input line 73.
+LaTeX Info: Redefining \% on input line 73.
+ [102]
+LaTeX Info: Redefining \. on input line 73.
+LaTeX Info: Redefining \% on input line 73.
+ [103]
+LaTeX Info: Redefining \. on input line 73.
+LaTeX Info: Redefining \% on input line 73.
+ [104] (nombreTT-numeroDeTT.aux (portada.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
- (resumen.aux) (advertencia.aux)
-(agradecimientos.aux))
+ (resumen.aux)
+(advertencia.aux) (agradecimientos.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -2492,13 +4145,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3990 strings out of 492973
- 60501 string characters out of 3126693
- 157404 words of memory out of 3000000
- 7660 multiletter control sequences out of 15000+200000
+ 4042 strings out of 492973
+ 62117 string characters out of 3126693
+ 180191 words of memory out of 3000000
+ 7699 multiletter control sequences out of 15000+200000
  19481 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,14n,33p,1866b,501s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,15n,33p,1866b,501s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/tanya/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb><C:/Users/tanya/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmbx12.pfb><C:/Users/tanya/AppData/Local/Programs/MiKTeX 2.9/f
@@ -2523,9 +4176,9 @@ ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/ta
 nya/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
 ><C:/Users/tanya/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/eurosym/f
 eymr10.pfb>
-Output written on nombreTT-numeroDeTT.pdf (71 pages, 2164584 bytes).
+Output written on nombreTT-numeroDeTT.pdf (114 pages, 2624388 bytes).
 PDF statistics:
- 353 PDF objects out of 1000 (max. 8388607)
+ 498 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 

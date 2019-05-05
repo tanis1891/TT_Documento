@@ -96,24 +96,609 @@ El impacto se considera de acuerdo a los siguientes valores: \\
 Una vez que se tienen los riesgos se evalúa el impacto y la probabilidad de cada riesgo, mediante la Tabla 2.XVI \\
 
 \begin{table}[htb]
-	\begin{tabular}{|p{2cm}|p{1.5cm}|p{2cm}|p{1.6cm}|p{1.5cm}|p{2.1cm}|}
+	\setlength{\arrayrulewidth}{0.3mm}
+
+	\begin{tabular}{|p{2cm}|p{1.5cm}|p{2cm}|p{1.6cm}|p{1.6cm}|p{2cm}|}
 %		\centering
 		\hline
-		\cellcolor{blue} & \cellcolor{yellow}Impacto & Despreciable & Marginal & Critico & Catastrófico\\
+		\cellcolor{blue} \color{white} & \cellcolor[gray]{0.9}Impacto & \cellcolor[gray]{0.9}Despreciable & \cellcolor[gray]{0.9}Marginal & \cellcolor[gray]{0.9}Critico & \cellcolor[gray]{0.9}Catastrófico\\
 		\cline{2-6}
-		\cellcolor{blue} \multirow{2}{2cm}[5mm ]{Probabilidad} & & 4 & 3 & 2 & 1 \\
+		\cellcolor{blue} \color{white} \multirow{2}{2cm}[5mm]{Probabilidad} & & 4 & 3 & 2 & 1 \\
 		\hline
-		\cellcolor{blue} Raro & 1 & \cellcolor{green} R15 & \cellcolor{green} R2,R9,R13, & \cellcolor{yellow} R1, R3, R10, R13,R14, & \cellcolor{red} \\
+		\cellcolor{blue} \color{white} Raro & 1 & \cellcolor{green} R15 & \cellcolor{green} R2,R9,R13, & \cellcolor{yellow} R1, R3, R10, R13,R14, & \cellcolor{red} \\
 		\hline
-		\cellcolor{blue} Moderado & 2 & \cellcolor{yellow} R12 & \cellcolor{yellow} & \cellcolor{red} & \cellcolor{red} R11, R5 \\
+		\cellcolor{blue} \color{white} Moderado & 2 & \cellcolor{yellow} R12 & \cellcolor{yellow} & \cellcolor{red} & \cellcolor{red} R11, R5 \\
 		\hline
-		\cellcolor{blue} Muy probable & 3 & \cellcolor{yellow} & \cellcolor{yellow} R4 & \cellcolor{red} R6 & \cellcolor{red} R7,R8, \\
+		\cellcolor{blue} \color{white} Muy probable & 3 & \cellcolor{yellow} & \cellcolor{yellow} R4 & \cellcolor{red} R6 & \cellcolor{red} R7,R8, \\
 		\hline
-		\cellcolor{blue} Seguro & 4 & \cellcolor{yellow} & \cellcolor{yellow} & \cellcolor{red} & \cellcolor{red} \\
+		\cellcolor{blue} \color{white} Seguro & 4 & \cellcolor{yellow} & \cellcolor{yellow} & \cellcolor{red} & \cellcolor{red} \\
 		\hline
 	\end{tabular}
 \textbf{\caption{\small{\textbf{Semáforo de riesgos \cite{cuarentaycuatro}.}}}}
 \end{table}
 
+En parte de las filas los riesgos se ordenan conforme a la probabilidad de ocurrencia y en las columnas se ordenan de acuerdo a su impacto, como resultado podemos ver los riesgos más peligrosos en la parte de rojo, y son los que tendremos que impedir o responder, para disminuir su impacto en el prototipo, mediante los planes de contingencia. \\
 
+\textbf{Planes de contingencia}
 
+En este apartado describiremos los planes de contingencia mediante una hoja de información, para ser tomados en cuenta en caso de que lleguen a ocurrir, y de esta manera eliminar el riesgo o en el peor de los casos mitigarlo. \\
+
+%---------------------------- Tabla de riesgo 1 ----------------------% 
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|p{2.75cm}|p{2.75cm}|p{2.75cm}|p{2.75cm}|}
+		\hline
+		\multicolumn{4}{|c|}{Hoja de información de riesgo}\\
+		\hline
+		\multicolumn{1}{|c|}{ID: \textbf{R1}} &
+		\multicolumn{1}{|c|}{Fecha: 25/Octubre/2016} &
+		\multicolumn{1}{|c|}{Probabilidad: 20\%} &
+		\multicolumn{1}{|c|}{Impacto: Critico} \\
+		\hline
+		\multicolumn{4}{|c|}{Descripción: Mala organización con los integrantes del equipo.}\\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Refinamiento/contexto:} \par 
+			\parbox[p][0.2\textwidth][c]{12cm}{
+				\begin{itemize}
+					\item Subcondición 1: No tener definido los temas que se deben desarrollar. 
+					\item Subcondición 2: Repetición de información entre los integrantes del equipo, llegando a perder el tiempo de desarrollo.
+				\end{itemize}		
+			}		
+		} \\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Reducción/supervisión:} \par
+			\parbox[p][0.27\textwidth][c]{12cm}{
+				\begin{enumerate}
+					\item Se agendarán juntas semanales que permitan evaluar el avance del prototipo.
+					\item En las juntas se organizará el trabajo con forme al cronograma.
+					\item Si los procedimientos son de un alto grado de dificultad se atenderá entre el equipo hasta que se resuelva.
+				\end{enumerate}		
+			}	
+		}\\
+		\hline
+		\multicolumn{4}{|p{12cm}|}{\textbf{Gestión/Plan de contingencia/acción:} Realizar revisiones semanalmente del avance y actividades pendientes.}\\
+		\hline
+	\end{tabular}
+\textbf{\caption{\small{\textbf{Tabla de datos de riesgo 1 \cite{cuarentaycuatro}.}}}}
+\end{table}
+	
+%---------------------------- Tabla de riesgo 2 ----------------------% 	
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|p{2.75cm}|p{2.75cm}|p{2.75cm}|p{2.75cm}|}
+		\hline
+		\multicolumn{4}{|c|}{Hoja de información de riesgo}\\
+		\hline
+		\multicolumn{1}{|c|}{ID: \textbf{R2}} &
+		\multicolumn{1}{|c|}{Fecha: 25/Octubre/2016} &
+		\multicolumn{1}{|c|}{Probabilidad: 30\%} &
+		\multicolumn{1}{|c|}{Impacto: Critico} \\
+		\hline
+		\multicolumn{4}{|c|}{Descripción: El usuario no está capacitado para utilizar el producto.}\\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Refinamiento/contexto:} \par 
+			\parbox[p][0.17\textwidth][c]{12cm}{
+				\begin{itemize}
+					\item Subcondición 1: No se tiene información sobre el prototipo. 
+					\item Subcondición 2: Se desconoce cómo utilizar el prototipo.
+				\end{itemize}		
+			}		
+		} \\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Reducción/supervisión:} \par
+			\parbox[p][0.2\textwidth][c]{12cm}{
+				\begin{enumerate}
+					\item Se realizará detalladamente un manual de usuario con el fin de explicar el funcionamiento del prototipo.
+					\item En el manual también indicara los límites del prototipo, y los alcances que este puede tener.
+				\end{enumerate}		
+			}	
+		}\\
+		\hline
+		\multicolumn{4}{|p{12cm}|}{\textbf{Gestión/Plan de contingencia/acción:} Se realizarán manuales o guías de usuario enfocadas al usuario final, explicando el funcionamiento y alcances del prototipo.}\\
+		\hline
+	\end{tabular}
+	\textbf{\caption{\small{\textbf{Tabla de datos de riesgo 2 \cite{cuarentaycuatro}.}}}}
+\end{table}
+
+%---------------------------- Tabla de riesgo 3 ----------------------% 
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|p{2.75cm}|p{2.75cm}|p{2.75cm}|p{2.75cm}|}
+		\hline
+		\multicolumn{4}{|c|}{Hoja de información de riesgo}\\
+		\hline
+		\multicolumn{1}{|c|}{ID: \textbf{R3}} &
+		\multicolumn{1}{|c|}{Fecha: 25/Octubre/2016} &
+		\multicolumn{1}{|c|}{Probabilidad: 10\%} &
+		\multicolumn{1}{|c|}{Impacto: Critico} \\
+		\hline
+		\multicolumn{4}{|c|}{Descripción: Un integrante del equipo sufra alguna enfermedad grave.}\\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Refinamiento/contexto:} \par 
+			\parbox[p][0.2\textwidth][c]{12cm}{
+				\begin{itemize}
+					\item Subcondición 1: Un integrante del equipo llegue a enfermarse por motivos del entorno.
+					\item Subcondición 2: Un integrante se enferme por motivos de estrés o cualquier motivo.
+				\end{itemize}		
+			}		
+		} \\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Reducción/supervisión:} \par
+			\parbox[p][0.2\textwidth][c]{12cm}{
+				\begin{enumerate}
+					\item Se analizará el avance del trabajo y los pendientes.
+					\item Se reasignarán las tareas que estén pendientes entre los integrantes restantes, con el fin de terminar en tiempo y forma.
+				\end{enumerate}		
+			}	
+		}\\
+		\hline
+		\multicolumn{4}{|p{12cm}|}{\textbf{Gestión/Plan de contingencia/acción:} Se dividirá las actividades restantes entre los integrantes actuales del equipo.}\\
+		\hline
+	\end{tabular}
+	\textbf{\caption{\small{\textbf{Tabla de datos de riesgo 3 \cite{cuarentaycuatro}.}}}}
+\end{table}
+
+%---------------------------- Tabla de riesgo 4 ----------------------% 
+\begin{table}[htb]
+	\centering
+	\begin{tabular}{|p{2.75cm}|p{2.75cm}|p{2.75cm}|p{2.75cm}|}
+		\hline
+		\multicolumn{4}{|c|}{Hoja de información de riesgo}\\
+		\hline
+		\multicolumn{1}{|c|}{ID: \textbf{R4}} &
+		\multicolumn{1}{|c|}{Fecha: 25/Octubre/2016} &
+		\multicolumn{1}{|c|}{Probabilidad: 50\%} &
+		\multicolumn{1}{|c|}{Impacto: Marginal} \\
+		\hline
+		\multicolumn{4}{|p{12cm}|}{Descripción: Los sensores no se encuentren en óptimas condiciones a la hora de las pruebas.}\\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Refinamiento/contexto:} \par 
+			\parbox[p][0.2\textwidth][c]{12.3cm}{
+				\begin{itemize}
+					\item Subcondición 1: Se presenta un corto circuito y se arruinan los sensores.
+					\item Subcondición 2: Se utilizan de manera incorrecta los sensores, llegando a confundir los pines.
+				\end{itemize}		
+			}		
+		} \\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Reducción/supervisión:} \par
+			\parbox[p][0.3\textwidth][c]{12.3cm}{
+				\begin{enumerate}
+					\item Se comprarán repuestos de los sensores con el fin de tener un extra por si lleva a arruinarse alguno.
+					\item Se analizará el manual entre los integrantes del equipo, con el fin de tener más percepción de los errores y unificar el conocimiento entre el equipo.
+					\item Cuando se realicen pruebas se comprobará si la conexión es la correcta.
+				\end{enumerate}		
+			}	
+		}\\
+		\hline
+		\multicolumn{4}{|p{12.3cm}|}{\textbf{Gestión/Plan de contingencia/acción:} Se realizarán pruebas mínimas antes de realizar las pruebas finales, se tendrán repuesto en el caso de que sea necesario cambiarlos.}\\
+		\hline
+	\end{tabular}
+	\textbf{\caption{\small{\textbf{Tabla de datos de riesgo 4 \cite{cuarentaycuatro}.}}}}
+\end{table}
+
+%---------------------------- Tabla de riesgo 5 ----------------------% 
+\begin{table}[htb]
+	\centering
+	\begin{tabular}{|p{2.75cm}|p{2.75cm}|p{2.75cm}|p{2.75cm}|}
+		\hline
+		\multicolumn{4}{|c|}{Hoja de información de riesgo}\\
+		\hline
+		\multicolumn{1}{|c|}{ID: \textbf{R5}} &
+		\multicolumn{1}{|c|}{Fecha: 25/Octubre/2016} &
+		\multicolumn{1}{|c|}{Probabilidad: 30\%} &
+		\multicolumn{1}{|c|}{Impacto: Catastrófico} \\
+		\hline
+		\multicolumn{4}{|p{12cm}|}{Descripción: La comunicación entre los sensores y el microcontrolador no sea correcta.}\\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Refinamiento/contexto:} \par 
+			\parbox[p][0.16\textwidth][c]{12.3cm}{
+				\begin{itemize}
+					\item Subcondición 1: El protocolo de comunicación no está bien elaborado.
+					\item Subcondición 2: Los datos no son entendibles entre el sensor y el microcontrolador.
+				\end{itemize}		
+			}		
+		} \\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Reducción/supervisión:} \par
+			\parbox[p][0.23\textwidth][c]{12.3cm}{
+				\begin{enumerate}
+					\item Se asignará tiempo para analizar el protocolo de comunicación.
+					\item Se estudiará el funcionamiento de la comunicación de los sensores.
+					\item Se realizarán prácticas con el fin de ir incrementando la complejidad de los datos, hasta llegar al objetivo, estudiando cada caso.
+				\end{enumerate}		
+			}	
+		}\\
+		\hline
+		\multicolumn{4}{|p{12.3cm}|}{\textbf{Gestión/Plan de contingencia/acción:} Se realizarán pruebas entre cada sensor y el microcontrolador, para determinar la posible falla.}\\
+		\hline
+	\end{tabular}
+	\textbf{\caption{\small{\textbf{Tabla de datos de riesgo 5 \cite{cuarentaycuatro}.}}}}
+\end{table}
+
+%---------------------------- Tabla de riesgo 6 ----------------------% 
+\begin{table}[htb]
+	\centering
+	\begin{tabular}{|p{2.75cm}|p{2.75cm}|p{2.75cm}|p{2.75cm}|}
+		\hline
+		\multicolumn{4}{|c|}{Hoja de información de riesgo}\\
+		\hline
+		\multicolumn{1}{|c|}{ID: \textbf{R6}} &
+		\multicolumn{1}{|c|}{Fecha: 25/Octubre/2016} &
+		\multicolumn{1}{|c|}{Probabilidad: 40\%} &
+		\multicolumn{1}{|c|}{Impacto: Critico} \\
+		\hline
+		\multicolumn{4}{|c|}{Descripción: El módulo de Wifi no transmite bien los datos.}\\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Refinamiento/contexto:} \par 
+			\parbox[p][0.13\textwidth][c]{12cm}{
+				\begin{itemize}
+					\item Subcondición 1: Los datos no son transmitidos por el módulo wifi. 
+					\item Subcondición 2: La configuración del módulo wifi no es correcto.
+				\end{itemize}		
+			}		
+		} \\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Reducción/supervisión:} \par
+			\parbox[p][0.3\textwidth][c]{12cm}{
+				\begin{enumerate}
+					\item Se asignará tiempo para analizar el protocolo de comunicación Wifi.
+					\item Se realizarán pruebas simples con el módulo Wifi, hasta llegar al objetivo.
+					\item Se realizarán prácticas con el fin de ir incrementando la complejidad, hasta llegar al objetivo, estudiando cada caso.
+				\end{enumerate}		
+			}	
+		}\\
+		\hline
+		\multicolumn{4}{|p{12cm}|}{\textbf{Gestión/Plan de contingencia/acción:} Se realizarán pruebas con el módulo de manera individual, y se observarán las posibles fallas que este pueda presentar, para realizar buenas prácticas.}\\
+		\hline
+	\end{tabular}
+	\textbf{\caption{\small{\textbf{Tabla de datos de riesgo 6 \cite{cuarentaycuatro}.}}}}
+\end{table}
+
+%---------------------------- Tabla de riesgo 7 ----------------------% 
+\begin{table}[htb]
+	\centering
+	\begin{tabular}{|p{2.75cm}|p{2.75cm}|p{2.75cm}|p{2.75cm}|}
+		\hline
+		\multicolumn{4}{|c|}{Hoja de información de riesgo}\\
+		\hline
+		\multicolumn{1}{|c|}{ID: \textbf{R7}} &
+		\multicolumn{1}{|c|}{Fecha: 25/Octubre/2016} &
+		\multicolumn{1}{|c|}{Probabilidad: 40\%} &
+		\multicolumn{1}{|c|}{Impacto: Catastrófico} \\
+		\hline
+		\multicolumn{4}{|p{12.3cm}|}{Descripción: La comunicación entre la aplicación y hardware no son correctos.}\\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Refinamiento/contexto:} \par 
+			\parbox[p][0.16\textwidth][c]{12.3cm}{
+				\begin{itemize}
+					\item Subcondición 1: Los datos no se pueden mostrar en la aplicación móvil. 
+					\item Subcondición 2: Se tienen caracteres extraños en la aplicación. 
+				\end{itemize}		
+			}		
+		} \\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Reducción/supervisión:} \par
+			\parbox[p][0.2\textwidth][c]{12.3cm}{
+				\begin{enumerate}
+					\item Se investigará los protocolos de comunicación que sean compatibles entre el microcontrolador y el IDE de la aplicación, mediante librerías.
+					\item Una vez que se tengan los protocolos compatibles, se analizara la estructura de datos transmitida, para ser procesada.
+				\end{enumerate}		
+			}	
+		}\\
+		\hline
+		\multicolumn{4}{|p{12.3cm}|}{\textbf{Gestión/Plan de contingencia/acción:} Se analizará el hardware de manera individual, una vez que se determine si los resultados son los esperados, evaluaremos la aplicación de acuerdo módulos por los que pasan los datos.}\\
+		\hline
+	\end{tabular}
+	\textbf{\caption{\small{\textbf{Tabla de datos de riesgo 7 \cite{cuarentaycuatro}.}}}}
+\end{table}
+
+%---------------------------- Tabla de riesgo 8 ----------------------% 
+\begin{table}[htb]
+	\centering
+	\begin{tabular}{|p{2.75cm}|p{2.75cm}|p{2.75cm}|p{2.75cm}|}
+		\hline
+		\multicolumn{4}{|c|}{Hoja de información de riesgo}\\
+		\hline
+		\multicolumn{1}{|c|}{ID: \textbf{R8}} &
+		\multicolumn{1}{|c|}{Fecha: 25/Octubre/2016} &
+		\multicolumn{1}{|c|}{Probabilidad: 40\%} &
+		\multicolumn{1}{|c|}{Impacto: Catastrófico} \\
+		\hline
+		\multicolumn{4}{|c|}{Descripción: El prototipo no se termine en el tiempo estimado.}\\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Refinamiento/contexto:} \par 
+			\parbox[p][0.2\textwidth][c]{12.3cm}{
+				\begin{itemize}
+					\item Subcondición 1: Se presenta retrasos en actividades que se consideraban sencillas.
+					\item Subcondición 2: Se lleva más tiempo en las actividades que lo esperado.
+				\end{itemize}		
+			}		
+		} \\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Reducción/supervisión:} \par
+			\parbox[p][0.25\textwidth][c]{12.3cm}{
+				\begin{enumerate}
+					\item Se clasificará las actividades complejas de las sencillas, para poder atacarlas de acuerdo a su complejidad.
+					\item Una vez clasificadas se asignará a cada integrante a realizar las actividades, sí las actividades son de desarrollo, se dividirá por módulos para elaborar cada módulo, reduciendo el grado de error y poder identificarlo.
+				\end{enumerate}		
+			}	
+		}\\
+		\hline
+		\multicolumn{4}{|p{12.3cm}|}{\textbf{Gestión/Plan de contingencia/acción:} Se organizarán juntas, en las que se evaluara el avance del prototipo y las actividades faltantes, para determinar un plan de acción, para regularizar los tiempos con el cronograma.}\\
+		\hline
+	\end{tabular}
+	\textbf{\caption{\small{\textbf{Tabla de datos de riesgo 8 \cite{cuarentaycuatro}.}}}}
+\end{table}
+
+%---------------------------- Tabla de riesgo 9 ----------------------% 
+\begin{table}[htb]
+	\centering
+	\begin{tabular}{|p{2.75cm}|p{2.75cm}|p{2.75cm}|p{2.75cm}|}
+		\hline
+		\multicolumn{4}{|c|}{Hoja de información de riesgo}\\
+		\hline
+		\multicolumn{1}{|c|}{ID: \textbf{R9}} &
+		\multicolumn{1}{|c|}{Fecha: 25/Octubre/2016} &
+		\multicolumn{1}{|c|}{Probabilidad: 20\%} &
+		\multicolumn{1}{|c|}{Impacto: Catastrófico} \\
+		\hline
+		\multicolumn{4}{|p{12.3cm}|}{Descripción: El dispositivo móvil no cuenta con las características especificadas para el proyecto.}\\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Refinamiento/contexto:} \par 
+			\parbox[p][0.2\textwidth][c]{12.3cm}{
+				\begin{itemize}
+					\item Subcondición 1: La aplicación móvil no está disponible para el dispositivo móvil.  
+					\item Subcondición 2: La versión del sistema operativo no es compatible con la aplicación.
+				\end{itemize}		
+			}		
+		} \\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Reducción/supervisión:} \par
+			\parbox[p][0.2\textwidth][c]{12.3cm}{
+				\begin{enumerate}
+					\item Se realizarán pruebas en distintos sistemas operativos de la misma familia.
+					\item Después de realizar las pruebas, se clasificará los sistemas operativos aceptables para el prototipo. 
+				\end{enumerate}		
+			}	
+		}\\
+		\hline
+		\multicolumn{4}{|p{12.3cm}|}{\textbf{Gestión/Plan de contingencia/acción:} Se indicarán las tecnologías requeridas para el funcionamiento del prototipo.}\\
+		\hline
+	\end{tabular}
+	\textbf{\caption{\small{\textbf{Tabla de datos de riesgo 9 \cite{cuarentaycuatro}.}}}}
+\end{table}
+
+%---------------------------- Tabla de riesgo 10 ----------------------% 
+\begin{table}[htb]
+	\centering
+	\begin{tabular}{|p{2.75cm}|p{2.75cm}|p{2.75cm}|p{2.75cm}|}
+		\hline
+		\multicolumn{4}{|c|}{Hoja de información de riesgo}\\
+		\hline
+		\multicolumn{1}{|c|}{ID: \textbf{R10}} &
+		\multicolumn{1}{|c|}{Fecha: 25/Octubre/2016} &
+		\multicolumn{1}{|c|}{Probabilidad: 10\%} &
+		\multicolumn{1}{|c|}{Impacto: Critico} \\
+		\hline
+		\multicolumn{4}{|c|}{Descripción: El usuario directo arruine la pulsera de sensores.}\\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Refinamiento/contexto:} \par 
+			\parbox[p][0.2\textwidth][c]{12cm}{
+				\begin{itemize}
+					\item Subcondición 1: El usuario indirecto no tiene conocimiento de las actividades que ponen en riesgo el funcionamiento del prototipo. 
+					\item Subcondición 2: Se olvida en que momentos utilizar el prototipo.
+				\end{itemize}		
+			}		
+		} \\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Reducción/supervisión:} \par
+			\parbox[p][0.2\textwidth][c]{12cm}{
+				\begin{enumerate}
+					\item Se estudiará las actividades que realizan las personas de la tercera edad con capacidades limitadas.
+					\item Se agrupará las actividades que no afecten el funcionamiento del prototipo y se indicaran en el manual. 
+				\end{enumerate}		
+			}	
+		}\\
+		\hline
+		\multicolumn{4}{|p{12cm}|}{\textbf{Gestión/Plan de contingencia/acción:} Se pondrán en el manual de usuario, acciones que pongan en riesgo el funcionamiento del prototipo, con el fin de que se tomen en cuenta.}\\
+		\hline
+	\end{tabular}
+	\textbf{\caption{\small{\textbf{Tabla de datos de riesgo 10 \cite{cuarentaycuatro}.}}}}
+\end{table}
+
+%---------------------------- Tabla de riesgo 11 ----------------------% 
+\begin{table}[htb]
+	\centering
+	\begin{tabular}{|p{2.75cm}|p{2.75cm}|p{2.75cm}|p{2.75cm}|}
+		\hline
+		\multicolumn{4}{|c|}{Hoja de información de riesgo}\\
+		\hline
+		\multicolumn{1}{|c|}{ID: \textbf{R11}} &
+		\multicolumn{1}{|c|}{Fecha: 25/Octubre/2016} &
+		\multicolumn{1}{|c|}{Probabilidad: 30\%} &
+		\multicolumn{1}{|c|}{Impacto: Catastrófico} \\
+		\hline
+		\multicolumn{4}{|p{12.3cm}|}{Descripción: Se presente un inconveniente en el desarrollo por falta de conocimiento.}\\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Refinamiento/contexto:} \par 
+			\parbox[p][0.23\textwidth][c]{12.3cm}{
+				\begin{itemize}
+					\item Subcondición 1: No se tiene conocimiento de cómo realizar dichas actividades. 
+					\item Subcondición 2: En el desarrollo se presenta una etapa que no se consideró o planifico durante el análisis, por tal motivo se presentan errores en el desarrollo que se desconocen su causa.
+				\end{itemize}		
+			}		
+		} \\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Reducción/supervisión:} \par
+			\parbox[p][0.33\textwidth][c]{12.3cm}{
+				\begin{enumerate}
+					\item Se realizará una investigación previa para conocer los temas que se requieren para poder desarrollar el prototipo.
+					\item Se investigará los cursos, talleres y libros, que contengan este conocimiento.
+					\item Se enfocará el equipo en entender dicho conocimiento, mediante prácticas. 
+				\end{enumerate}		
+			}	
+		}\\
+		\hline
+		\multicolumn{4}{|p{12.3cm}|}{\textbf{Gestión/Plan de contingencia/acción:} Se organizarán juntas con el fin de discutir los temas desconocidos, para después tomar cursos o talleres que nos permitan cubrir ese conocimiento.}\\
+		\hline
+	\end{tabular}
+	\textbf{\caption{\small{\textbf{Tabla de datos de riesgo 11 \cite{cuarentaycuatro}.}}}}
+\end{table}
+
+%---------------------------- Tabla de riesgo 12 ----------------------% 
+\begin{table}[htb]
+	\centering
+	\begin{tabular}{|p{2.75cm}|p{2.75cm}|p{2.75cm}|p{2.75cm}|}
+		\hline
+		\multicolumn{4}{|c|}{Hoja de información de riesgo}\\
+		\hline
+		\multicolumn{1}{|c|}{ID: \textbf{R12}} &
+		\multicolumn{1}{|c|}{Fecha: 25/Octubre/2016} &
+		\multicolumn{1}{|c|}{Probabilidad: 30\%} &
+		\multicolumn{1}{|c|}{Impacto: Despreciable} \\
+		\hline
+		\multicolumn{4}{|p{12.3cm}|}{Descripción: La alimentación suministrada por las pilas hacia los sensores no sea suficiente para realizar las pruebas mínimas.}\\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Refinamiento/contexto:} \par 
+			\parbox[p][0.2\textwidth][c]{12.3cm}{
+				\begin{itemize}
+					\item Subcondición 1: La alimentación no permite llevar acabo las mediciones necesarias para el usuario. 
+					\item Subcondición 2: La alimentación no cubre la demanda de corriente de los dispositivos.
+				\end{itemize}		
+			}		
+		} \\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Reducción/supervisión:} \par
+			\parbox[p][0.3\textwidth][c]{12.3cm}{
+				\begin{enumerate}
+					\item Se observará la corriente total consumida por los dispositivos electrónicos.
+					\item Determinar el arreglo de pilas que cubra la demanda.
+					\item Asignar una frecuencia de mediciones, para cambiar el estado de los sensores y microcontroladores a un modo ahorro de energía. 
+				\end{enumerate}		
+			}	
+		}\\
+		\hline
+		\multicolumn{4}{|p{12.3cm}|}{\textbf{Gestión/Plan de contingencia/acción:} Se realizarán pruebas una vez que se tenga implementado todo el prototipo, con el fin de analizar la corriente que esté consume, y determinar el arreglo de pilas que se debe utilizar.}\\
+		\hline
+	\end{tabular}
+	\textbf{\caption{\small{\textbf{Tabla de datos de riesgo 12 \cite{cuarentaycuatro}.}}}}
+\end{table}
+
+%---------------------------- Tabla de riesgo 13 ----------------------% 
+\begin{table}[htb]
+	\centering
+	\begin{tabular}{|p{2.75cm}|p{2.75cm}|p{2.75cm}|p{2.75cm}|}
+		\hline
+		\multicolumn{4}{|c|}{Hoja de información de riesgo}\\
+		\hline
+		\multicolumn{1}{|c|}{ID: \textbf{R13}} &
+		\multicolumn{1}{|c|}{Fecha: 25/Octubre/2016} &
+		\multicolumn{1}{|c|}{Probabilidad: 10\%} &
+		\multicolumn{1}{|c|}{Impacto: Critico} \\
+		\hline
+		\multicolumn{4}{|c|}{Descripción: El microcontrolador se arruina.}\\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Refinamiento/contexto:} \par 
+			\parbox[p][0.2\textwidth][c]{12cm}{
+				\begin{itemize}
+					\item Subcondición 1: La temperatura soportada por el microcontrolador es sobrepasada y se arruina. 
+					\item Subcondición 2: Se realizó una conexión externa de manera errónea.
+				\end{itemize}		
+			}		
+		} \\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Reducción/supervisión:} \par
+			\parbox[p][0.3\textwidth][c]{12cm}{
+				\begin{enumerate}
+					\item Cada integrante se documentará mediante la hoja de especificación.
+					\item Se analizará el entorno en el que se realizan las pruebas, para determinar si es el apropiado.
+					\item Antes de alimentar los circuitos se observará si las conexiones externas son correctas.
+				\end{enumerate}		
+			}	
+		}\\
+		\hline
+		\multicolumn{4}{|p{12cm}|}{\textbf{Gestión/Plan de contingencia/acción:} Comprar varios repuestos para poder cambiarlos, además de analizar el manual para determinar buenas prácticas.}\\
+		\hline
+	\end{tabular}
+	\textbf{\caption{\small{\textbf{Tabla de datos de riesgo 13 \cite{cuarentaycuatro}.}}}}
+\end{table}
+
+%---------------------------- Tabla de riesgo 14 ----------------------% 
+\begin{table}[htb]
+	\centering
+	\begin{tabular}{|p{2.75cm}|p{2.75cm}|p{2.75cm}|p{2.75cm}|}
+		\hline
+		\multicolumn{4}{|c|}{Hoja de información de riesgo}\\
+		\hline
+		\multicolumn{1}{|c|}{ID: \textbf{R14}} &
+		\multicolumn{1}{|c|}{Fecha: 25/Octubre/2016} &
+		\multicolumn{1}{|c|}{Probabilidad: 20\%} &
+		\multicolumn{1}{|c|}{Impacto: Critico} \\
+		\hline
+		\multicolumn{4}{|c|}{Descripción: El prototipo no cumple las expectativas del cliente.}\\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Refinamiento/contexto:} \par 
+			\parbox[p][0.16\textwidth][c]{12cm}{
+				\begin{itemize}
+					\item Subcondición 1: El prototipo no es confortable para el cliente.
+					\item Subcondición 2: El cliente no está convencido de la solución que ofrece nuestro prototipo.
+				\end{itemize}		
+			}		
+		} \\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Reducción/supervisión:} \par
+			\parbox[p][0.26\textwidth][c]{12cm}{
+				\begin{enumerate}
+					\item Se tratará de realizar el prototipo lo más pequeño que se pueda.
+					\item Se analizará el diseño del prototipo con el fin de que no sea invasivo.
+					\item Se estudiarán las actividades del usuario indirecto para estimar el tamaño del accesorio que se debe desarrollar.
+				\end{enumerate}		
+			}	
+		}\\
+		\hline
+		\multicolumn{4}{|p{12cm}|}{\textbf{Gestión/Plan de contingencia/acción:} Se pensará en las dificultades del cliente indirecto, con el fin de reducir las molestias que pudiese presentar el prototipo a la hora de ser usado.}\\
+		\hline
+	\end{tabular}
+	\textbf{\caption{\small{\textbf{Tabla de datos de riesgo 14 \cite{cuarentaycuatro}.}}}}
+\end{table}
+
+%---------------------------- Tabla de riesgo 15 ----------------------% 
+\begin{table}[htb]
+	\centering
+	\begin{tabular}{|p{2.75cm}|p{2.75cm}|p{2.75cm}|p{2.75cm}|}
+		\hline
+		\multicolumn{4}{|c|}{Hoja de información de riesgo}\\
+		\hline
+		\multicolumn{1}{|c|}{ID: \textbf{R15}} &
+		\multicolumn{1}{|c|}{Fecha: 25/Octubre/2016} &
+		\multicolumn{1}{|c|}{Probabilidad: 10\%} &
+		\multicolumn{1}{|c|}{Impacto: Critico} \\
+		\hline
+		\multicolumn{4}{|c|}{Descripción: Los sensores no se encuentre calibrados.}\\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Refinamiento/contexto:} \par 
+			\parbox[p][0.16\textwidth][c]{12cm}{
+				\begin{itemize}
+					\item Subcondición 1: Los sensores tienen un error en las mediciones.
+					\item Subcondición 2: Las mediciones no coinciden con el usuario.
+				\end{itemize}		
+			}		
+		} \\
+		\hline
+		\multicolumn{4}{|p{11cm}|}{\textbf{Reducción/supervisión:} \par
+			\parbox[p][0.16\textwidth][c]{12cm}{
+				\begin{enumerate}
+					\item Se analiza al cliente para determinar las configuraciones. 
+					\item Se asignan los parámetros iniciales para cada sensor.
+				\end{enumerate}		
+			}	
+		}\\
+		\hline
+		\multicolumn{4}{|p{12cm}|}{\textbf{Gestión/Plan de contingencia/acción:} Se implementará un estudio del usuario final con el fin de estudiar las variables, que pudiese presentar su condición actual, se considerará el factor de emisión de su frecuencia cardíaca acorde a su edad.}\\
+		\hline
+	\end{tabular}
+	\textbf{\caption{\small{\textbf{Tabla de datos de riesgo 15 \cite{cuarentaycuatro}.}}}}
+\end{table}
+
+\clearpage
